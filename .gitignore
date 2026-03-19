@@ -1,0 +1,21 @@
+# Bỏ qua thư viện của Node.js (Rất nặng, người tải sẽ tự cài lại)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Bỏ qua các file môi trường chứa API Key, Database Password
+.env
+.env.local
+.env.*
+!.env.example
+
+# Bỏ qua thư mục build (khi build frontend/backend nó tự sinh ra)
+dist/
+build/
+client/dist/
+
+# Bỏ qua các file log và file hệ thống
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store

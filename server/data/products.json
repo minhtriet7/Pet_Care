@@ -1,0 +1,2145 @@
+[
+  {
+    "name": "Hạt Royal Canin Poodle Adult",
+    "slug": "hat-royal-canin-poodle-adult",
+    "_categorySlug": "thuc-an-cho-cho",
+    "description": "Thức ăn hạt khô dành riêng cho giống chó Poodle trưởng thành trên 10 tháng tuổi.",
+    "price": 380000,
+    "discountPrice": 350000,
+    "stock": 50,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773882194/54e27e2b02b0e9d12811aeefcb9b2f72_ard21c.jpg"
+    ],
+    "brand": "Royal Canin",
+    "attributes": {
+      "weight": "1.5kg",
+      "flavor": "Gia cầm",
+      "lifestage": "adult"
+    },
+    "sold": 15,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 10
+  },
+
+  {
+    "name": "Hạt Pedigree Puppy Vị Bò & Sữa",
+    "slug": "hat-pedigree-puppy-vi-bo-sua",
+    "_categorySlug": "thuc-an-cho-cho",
+    "description": "Hạt dinh dưỡng mềm hỗ trợ hệ tiêu hóa cho chó con từ 2 - 12 tháng tuổi.",
+    "price": 120000,
+    "discountPrice": 110000,
+    "stock": 100,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749186/17_wpxucf.png"
+    ],
+    "brand": "Pedigree",
+    "attributes": {
+      "weight": "1.3kg",
+      "flavor": "Bò và Sữa",
+      "lifestage": "puppy"
+    },
+    "sold": 85,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 30
+  },
+
+  {
+    "name": "Hạt SmartHeart Adult Vị Bò Nướng",
+    "slug": "hat-smartheart-adult-vi-bo-nuong",
+    "_categorySlug": "thuc-an-cho-cho",
+    "description": "Thức ăn hạt khô cho chó trưởng thành với hương vị bò nướng hấp dẫn, bổ sung Omega 3 & 6.",
+    "price": 95000,
+    "discountPrice": 85000,
+    "stock": 200,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749189/19_jckhlg.png"
+    ],
+    "brand": "SmartHeart",
+    "attributes": {
+      "weight": "1.5kg",
+      "flavor": "Bò nướng",
+      "lifestage": "adult"
+    },
+    "sold": 415,
+    "ratingsAverage": 4.5,
+    "numOfReviews": 89
+  },
+  {
+    "name": "Hạt Ganador Adult Vị Cá Hồi & Cừu",
+    "slug": "hat-ganador-adult-vi-ca-hoi-cuu",
+    "_categorySlug": "thuc-an-cho-cho",
+    "description": "Thức ăn cho chó trưởng thành giúp phát triển cơ bắp và bảo vệ hệ tiêu hóa khỏe mạnh.",
+    "price": 115000,
+    "discountPrice": 105000,
+    "stock": 80,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749171/11_o2nqub.png"
+    ],
+    "brand": "Ganador",
+    "attributes": {
+      "weight": "1.5kg",
+      "flavor": "Cá Hồi và Cừu",
+      "lifestage": "adult"
+    },
+    "sold": 210,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 65
+  },
+  {
+    "name": "Hạt Mềm Zenith Chó Trưởng Thành Giống Nhỏ",
+    "slug": "hat-mem-zenith-cho-truong-thanh-giong-nho",
+    "_categorySlug": "thuc-an-cho-cho",
+    "description": "Hạt mềm không chứa ngũ cốc, dễ nhai và tiêu hóa, phù hợp cho chó giống nhỏ.",
+    "price": 210000,
+    "discountPrice": 195000,
+    "stock": 60,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749172/13_j1fqwq.png"
+    ],
+    "brand": "Zenith",
+    "attributes": {
+      "weight": "1.2kg",
+      "flavor": "Thịt Cừu và Gà",
+      "lifestage": "adult"
+    },
+    "sold": 150,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 112
+  },
+  {
+    "name": "Hạt Classic Pets Puppy Vị Sữa",
+    "slug": "hat-classic-pets-puppy-vi-sua",
+    "_categorySlug": "thuc-an-cho-cho",
+    "description": "Cung cấp Canxi và Phốt pho giúp phát triển xương và răng chắc khỏe cho chó con.",
+    "price": 85000,
+    "discountPrice": 79000,
+    "stock": 300,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749172/12_s2jcvt.png"
+    ],
+    "brand": "Classic Pets",
+    "attributes": {
+      "weight": "2kg",
+      "flavor": "Sữa",
+      "lifestage": "puppy"
+    },
+    "sold": 520,
+    "ratingsAverage": 4.4,
+    "numOfReviews": 205
+  },
+  {
+    "name": "Hạt ANF 6Free Hữu Cơ Vị Thịt Vịt",
+    "slug": "hat-anf-6free-huu-co-vi-thit-vit",
+    "_categorySlug": "thuc-an-cho-cho",
+    "description": "Thức ăn hữu cơ an toàn, giảm dị ứng, giúp cải thiện sức khỏe làn da và lông.",
+    "price": 350000,
+    "discountPrice": 330000,
+    "stock": 45,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749181/14_sr4avw.png"
+    ],
+    "brand": "ANF",
+    "attributes": {
+      "weight": "2kg",
+      "flavor": "Thịt Vịt",
+      "lifestage": "all"
+    },
+    "sold": 75,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 42
+  },
+  {
+    "name": "Hạt Taste of the Wild Pacific Stream",
+    "slug": "hat-taste-of-the-wild-pacific-stream",
+    "_categorySlug": "thuc-an-cho-cho",
+    "description": "Thức ăn không chứa ngũ cốc với thành phần cá hồi xông khói tự nhiên, giàu đạm.",
+    "price": 520000,
+    "discountPrice": 490000,
+    "stock": 25,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749182/15_ws7vao.png"
+    ],
+    "brand": "Taste of the Wild",
+    "attributes": {
+      "weight": "2.27kg",
+      "flavor": "Cá Hồi",
+      "lifestage": "adult"
+    },
+    "sold": 90,
+    "ratingsAverage": 5.0,
+    "numOfReviews": 56
+  },
+  {
+    "name": "Hạt Nature Bridge Poodle Vị Thịt Gà",
+    "slug": "hat-nature-bridge-poodle-vi-thit-ga",
+    "_categorySlug": "thuc-an-cho-cho",
+    "description": "Sản phẩm chứa thảo dược thiên nhiên, giúp dưỡng lông mượt mà và giảm chảy nước mắt.",
+    "price": 185000,
+    "discountPrice": 175000,
+    "stock": 120,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749184/16_ywpiqf.png"
+    ],
+    "brand": "Nature Bridge",
+    "attributes": {
+      "weight": "1.5kg",
+      "flavor": "Thịt Gà",
+      "lifestage": "all"
+    },
+    "sold": 260,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 84
+  },
+  {
+    "name": "Hạt Nutrience Original Adult Giống Nhỏ",
+    "slug": "hat-nutrience-original-adult-giong-nho",
+    "_categorySlug": "thuc-an-cho-cho",
+    "description": "Công thức giàu protein từ thịt gà chất lượng cao, giúp duy trì năng lượng cho chó giống nhỏ.",
+    "price": 310000,
+    "discountPrice": 290000,
+    "stock": 40,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749187/18_mh9vqo.png"
+    ],
+    "brand": "Nutrience",
+    "attributes": {
+      "weight": "2.5kg",
+      "flavor": "Gà và Gạo lứt",
+      "lifestage": "adult"
+    },
+    "sold": 60,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 28
+  },
+  {
+    "name": "Hạt Dog Mania Premium Chó Mọi Lứa Tuổi",
+    "slug": "hat-dog-mania-premium-cho-moi-lua-tuoi",
+    "_categorySlug": "thuc-an-cho-cho",
+    "description": "Thức ăn dinh dưỡng toàn diện, hỗ trợ miễn dịch và giảm mùi hôi chất thải.",
+    "price": 140000,
+    "discountPrice": 125000,
+    "stock": 180,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749190/20_qjy048.png"
+    ],
+    "brand": "Dog Mania",
+    "attributes": {
+      "weight": "3kg",
+      "flavor": "Gia cầm tổng hợp",
+      "lifestage": "all"
+    },
+    "sold": 380,
+    "ratingsAverage": 4.5,
+    "numOfReviews": 135
+  },
+
+  {
+    "name": "Pate Whiskas Vị Cá Ngừ",
+    "slug": "pate-whiskas-vi-ca-ngu",
+    "_categorySlug": "thuc-an-cho-meo",
+    "description": "Pate Whiskas thơm ngon, bổ sung độ ẩm và dưỡng chất cho mèo.",
+    "price": 15000,
+    "discountPrice": 12000,
+    "stock": 200,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748774/10_r7floh.png"
+    ],
+    "brand": "Whiskas",
+    "attributes": {
+      "weight": "85g",
+      "flavor": "Cá ngừ",
+      "lifestage": "all"
+    },
+    "sold": 120,
+    "ratingsAverage": 4.5,
+    "numOfReviews": 45
+  },
+
+  {
+    "name": "Hạt Royal Canin Kitten",
+    "slug": "hat-royal-canin-kitten",
+    "_categorySlug": "thuc-an-cho-meo",
+    "description": "Thức ăn hạt dinh dưỡng dành cho mèo con dưới 12 tháng tuổi, hỗ trợ hệ miễn dịch và tiêu hóa khỏe mạnh.",
+    "price": 350000,
+    "discountPrice": 330000,
+    "stock": 150,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748773/9_p7ryvf.png"
+    ],
+    "brand": "Royal Canin",
+    "attributes": {
+      "weight": "2kg",
+      "flavor": "Gia cầm",
+      "lifestage": "kitten"
+    },
+    "sold": 450,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 210
+  },
+  {
+    "name": "Hạt Me-O Adult Vị Cá Ngừ",
+    "slug": "hat-me-o-adult-vi-ca-ngu",
+    "_categorySlug": "thuc-an-cho-meo",
+    "description": "Hạt Me-O cung cấp đầy đủ dưỡng chất, Taurine giúp mắt sáng và Omega 3 & 6 cho lông mềm mượt.",
+    "price": 120000,
+    "discountPrice": 110000,
+    "stock": 300,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748770/8_dqzfcs.png"
+    ],
+    "brand": "Me-O",
+    "attributes": {
+      "weight": "1.2kg",
+      "flavor": "Cá ngừ",
+      "lifestage": "adult"
+    },
+    "sold": 680,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 340
+  },
+  {
+    "name": "Hạt Minino Yum Vị Hải Sản",
+    "slug": "hat-minino-yum-vi-hai-san",
+    "_categorySlug": "thuc-an-cho-meo",
+    "description": "Công thức đặc biệt chiết xuất từ Yucca giúp giảm mùi hôi chất thải, phù hợp cho mèo mọi lứa tuổi.",
+    "price": 95000,
+    "discountPrice": 88000,
+    "stock": 250,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748769/7_nuwibj.png"
+    ],
+    "brand": "Minino",
+    "attributes": {
+      "weight": "1.5kg",
+      "flavor": "Hải sản",
+      "lifestage": "all"
+    },
+    "sold": 520,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 185
+  },
+  {
+    "name": "Hạt Catsrang All Life Stages",
+    "slug": "hat-catsrang-all-life-stages",
+    "_categorySlug": "thuc-an-cho-meo",
+    "description": "Thức ăn cao cấp nhập khẩu Hàn Quốc, giúp ngăn ngừa búi lông và tăng cường sức khỏe đường tiết niệu.",
+    "price": 280000,
+    "discountPrice": 265000,
+    "stock": 120,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748768/6_zdps0g.png"
+    ],
+    "brand": "Catsrang",
+    "attributes": {
+      "weight": "2kg",
+      "flavor": "Gà và Cá",
+      "lifestage": "all"
+    },
+    "sold": 310,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 142
+  },
+  {
+    "name": "Pate Nekko Vị Cá Ngừ Nước Cốt",
+    "slug": "pate-nekko-vi-ca-ngu-nuoc-cot",
+    "_categorySlug": "thuc-an-cho-meo",
+    "description": "Pate Nekko làm từ 100% thịt cá ngừ thật, không chứa thịt nhân tạo, bổ sung Vitamin E.",
+    "price": 20000,
+    "discountPrice": 18000,
+    "stock": 500,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748766/5_vaezrd.png"
+    ],
+    "brand": "Nekko",
+    "attributes": {
+      "weight": "70g",
+      "flavor": "Cá ngừ",
+      "lifestage": "all"
+    },
+    "sold": 1250,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 412
+  },
+  {
+    "name": "Hạt Nutrience Original Indoor",
+    "slug": "hat-nutrience-original-indoor",
+    "_categorySlug": "thuc-an-cho-meo",
+    "description": "Dành cho mèo nuôi trong nhà, kiểm soát cân nặng tốt và hỗ trợ giảm tình trạng búi lông.",
+    "price": 380000,
+    "discountPrice": 355000,
+    "stock": 80,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748766/4_hzmmla.png"
+    ],
+    "brand": "Nutrience",
+    "attributes": {
+      "weight": "2.5kg",
+      "flavor": "Thịt gà",
+      "lifestage": "adult"
+    },
+    "sold": 95,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 56
+  },
+  {
+    "name": "Hạt Purina ONE Indoor Advantage",
+    "slug": "hat-purina-one-indoor-advantage",
+    "_categorySlug": "thuc-an-cho-meo",
+    "description": "Với thành phần chính là thịt gà tây thật, giúp mèo nhà duy trì vóc dáng lý tưởng.",
+    "price": 250000,
+    "discountPrice": 230000,
+    "stock": 110,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748763/3_nhqndk.png"
+    ],
+    "brand": "Purina ONE",
+    "attributes": {
+      "weight": "1.2kg",
+      "flavor": "Gà tây",
+      "lifestage": "adult"
+    },
+    "sold": 145,
+    "ratingsAverage": 4.5,
+    "numOfReviews": 78
+  },
+  {
+    "name": "Hạt Orijen Cat & Kitten Hữu Cơ",
+    "slug": "hat-orijen-cat-kitten-huu-co",
+    "_categorySlug": "thuc-an-cho-meo",
+    "description": "Thức ăn cao cấp không chứa ngũ cốc, cung cấp đến 85% thành phần động vật tươi sống.",
+    "price": 1250000,
+    "discountPrice": 1190000,
+    "stock": 40,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748761/1_tdsqdf.png"
+    ],
+    "brand": "Orijen",
+    "attributes": {
+      "weight": "1.8kg",
+      "flavor": "Gà, Gà tây và Cá",
+      "lifestage": "all"
+    },
+    "sold": 60,
+    "ratingsAverage": 5.0,
+    "numOfReviews": 35
+  },
+  {
+    "name": "Hạt Reflex Plus Adult Vị Cá Hồi",
+    "slug": "hat-reflex-plus-adult-vi-ca-hoi",
+    "_categorySlug": "thuc-an-cho-meo",
+    "description": "Công thức Xylo-oligosaccharides (XOS) siêu việt hỗ trợ tiêu hóa, giàu Omega 3 bảo vệ tim mạch.",
+    "price": 185000,
+    "discountPrice": 170000,
+    "stock": 160,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748762/2_ofixqe.png"
+    ],
+    "brand": "Reflex Plus",
+    "attributes": {
+      "weight": "1.5kg",
+      "flavor": "Cá hồi",
+      "lifestage": "adult"
+    },
+    "sold": 220,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 115
+  },
+  {
+    "name": "Pate Ciao Churu Gà Tôm Mực",
+    "slug": "pate-ciao-churu-ga-tom-muc",
+    "_categorySlug": "thuc-an-cho-meo",
+    "description": "Súp thưởng dạng lỏng hấp dẫn, giúp mèo thư giãn và dễ dàng kích thích sự thèm ăn.",
+    "price": 45000,
+    "discountPrice": 40000,
+    "stock": 400,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773878718/39_3b98f448df2c46d7b286d118b54ead92_large_ouh4dd.png"
+    ],
+    "brand": "Ciao",
+    "attributes": {
+      "weight": "56g",
+      "flavor": "Gà, Tôm và Mực",
+      "lifestage": "all"
+    },
+    "sold": 890,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 305
+  },
+
+  {
+    "name": "Bát Đôi Inox Chống Trượt",
+    "slug": "bat-doi-inox-chong-truot",
+    "_categorySlug": "chen-an",
+    "description": "Bát ăn đôi chất liệu inox không gỉ, dễ dàng vệ sinh, có đế cao su chống lật.",
+    "price": 85000,
+    "stock": 40,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748593/8_kezoof.png"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "weight": "500g",
+      "lifestage": "all"
+    },
+    "sold": 60,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 15
+  },
+
+  {
+    "name": "Bát Ăn Chậm Chống Nghẹn Thông Minh",
+    "slug": "bat-an-cham-chong-nghen-thong-minh",
+    "_categorySlug": "chen-an",
+    "description": "Thiết kế các rãnh nổi bên trong giúp thú cưng ăn chậm lại, ngăn ngừa đầy hơi và cải thiện hệ tiêu hóa hiệu quả.",
+    "price": 65000,
+    "stock": 120,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748592/7_e1awku.png"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "weight": "200g",
+      "lifestage": "all"
+    },
+    "sold": 250,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 65
+  },
+  {
+    "name": "Bát Gốm Sứ Chân Cao Chống Mỏi Cổ",
+    "slug": "bat-gom-su-chan-cao-chong-moi-co",
+    "_categorySlug": "chen-an",
+    "description": "Bát làm từ gốm sứ tráng men cao cấp, thiết kế chân đế cao giúp bảo vệ đốt sống cổ của chó mèo khi cúi ăn.",
+    "price": 120000,
+    "stock": 55,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748591/6_xur4nv.png"
+    ],
+    "brand": "Taotaopets",
+    "attributes": {
+      "weight": "600g",
+      "lifestage": "all"
+    },
+    "sold": 110,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 42
+  },
+  {
+    "name": "Bát Silicon Gấp Gọn Tiện Lợi Mang Đi Dạo",
+    "slug": "bat-silicon-gap-gon-tien-loi-mang-di-dao",
+    "_categorySlug": "chen-an",
+    "description": "Chất liệu silicon an toàn, có thể gấp gọn thành mặt phẳng, kèm móc khóa nhôm treo balo, tiện lợi cho các chuyến du lịch dã ngoại.",
+    "price": 35000,
+    "stock": 300,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748589/5_tkp7dr.png"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "weight": "100g",
+      "lifestage": "all"
+    },
+    "sold": 540,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 128
+  },
+  {
+    "name": "Bát Đôi Kèm Bình Nước Tự Động",
+    "slug": "bat-doi-kem-binh-nuoc-tu-dong",
+    "_categorySlug": "chen-an",
+    "description": "Bộ bát đôi tích hợp bình cấp nước tự động theo nguyên lý siphon, giúp thú cưng luôn có nước sạch cả ngày.",
+    "price": 110000,
+    "stock": 80,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748588/4_uxilcx.png"
+    ],
+    "brand": "Pakeway",
+    "attributes": {
+      "weight": "450g",
+      "lifestage": "all"
+    },
+    "sold": 320,
+    "ratingsAverage": 4.5,
+    "numOfReviews": 89
+  },
+  {
+    "name": "Máy Nhả Hạt Tự Động Dung Tích 3L",
+    "slug": "may-nha-hat-tu-dong-dung-tich-3l",
+    "_categorySlug": "chen-an",
+    "description": "Bình chứa thức ăn tự động dung tích lớn 3 lít, thiết kế nắp kín giữ hạt luôn giòn và ngăn chặn côn trùng xâm nhập.",
+    "price": 250000,
+    "stock": 40,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748586/3_yaxkhb.png"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "weight": "1.2kg",
+      "lifestage": "all"
+    },
+    "sold": 150,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 45
+  },
+  {
+    "name": "Bát Nhựa Trong Suốt Nghiêng 15 Độ",
+    "slug": "bat-nhua-trong-suot-nghieng-15-do",
+    "_categorySlug": "chen-an",
+    "description": "Đế nhựa ABS chắc chắn, thân bát làm từ nhựa PC trong suốt nghiêng 15 độ, dễ dàng tháo lắp và vệ sinh.",
+    "price": 55000,
+    "stock": 200,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748584/2_q839n3.png"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "weight": "150g",
+      "lifestage": "all"
+    },
+    "sold": 415,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 112
+  },
+  {
+    "name": "Bát Inox Treo Chuồng Gắn Lồng Chống Lật",
+    "slug": "bat-inox-treo-chuong-gan-long-chong-lat",
+    "_categorySlug": "chen-an",
+    "description": "Thiết kế ốc vít gắn chặt vào nan chuồng/lồng giúp bát không bị lật. Ruột bát inox bên trong có thể lấy ra dễ dàng để rửa.",
+    "price": 75000,
+    "stock": 150,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748583/1_o3aqkv.png"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "weight": "250g",
+      "lifestage": "all"
+    },
+    "sold": 280,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 75
+  },
+  {
+    "name": "Bát Đôi Gốm Sứ Kèm Giá Gỗ Sang Trọng",
+    "slug": "bat-doi-gom-su-kem-gia-go-sang-trong",
+    "_categorySlug": "chen-an",
+    "description": "Bộ 2 bát gốm sứ dày dặn đặt trên giá đỡ bằng gỗ tự nhiên thanh lịch, vừa làm khay ăn vừa trang trí không gian nhà.",
+    "price": 180000,
+    "stock": 35,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773879061/a_vinh_-_anh_dang_website_-_2021-12-22t121417.689_7c0b2aecaaf2424ea478eff4374c4317_master_w5uygm.png"
+    ],
+    "brand": "Taotaopets",
+    "attributes": {
+      "weight": "850g",
+      "lifestage": "all"
+    },
+    "sold": 90,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 30
+  },
+  {
+    "name": "Bát Ăn Thông Minh Tích Hợp Cân Điện Tử",
+    "slug": "bat-an-thong-minh-tich-hop-can-dien-tu",
+    "_categorySlug": "chen-an",
+    "description": "Bát ăn có màn hình LCD hiển thị chính xác trọng lượng thức ăn, kháng khuẩn tốt, giúp kiểm soát lượng calo mỗi bữa của thú cưng.",
+    "price": 350000,
+    "stock": 20,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773878985/a_vinh_-_anh_dang_website_-_2021-12-22t121409.527_f29e8f5d06ab477291309cfd2b346720_master_yxzifg.png"
+    ],
+    "brand": "Petkit",
+    "attributes": {
+      "weight": "400g",
+      "lifestage": "all"
+    },
+    "sold": 45,
+    "ratingsAverage": 5.0,
+    "numOfReviews": 18
+  },
+  {
+    "name": "Bát Nhựa Rãnh Nước Chống Kiến Tròn",
+    "slug": "bat-nhua-ranh-nuoc-chong-kien-tron",
+    "_categorySlug": "chen-an",
+    "description": "Viền đế ngoài có rãnh nhỏ để đổ nước, tạo thành hàng rào bảo vệ thức ăn khỏi kiến và các loại côn trùng bò vào.",
+    "price": 45000,
+    "stock": 250,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773878978/bbb8d3c5934845d3a4b15d14599c091c_pa070l.jpg"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "weight": "120g",
+      "lifestage": "all"
+    },
+    "sold": 600,
+    "ratingsAverage": 4.4,
+    "numOfReviews": 155
+  },
+
+  {
+    "name": "Máy Cho Ăn Tự Động Xiaomi Smart Pet",
+    "slug": "may-cho-an-tu-dong-xiaomi",
+    "_categorySlug": "may-tu-dong",
+    "description": "Máy nhả hạt tự động kết nối qua app, lên lịch ăn chính xác cho thú cưng.",
+    "price": 1850000,
+    "discountPrice": 1650000,
+    "stock": 15,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748491/6_u8dwp5.png"
+    ],
+    "brand": "Xiaomi",
+    "attributes": {
+      "weight": "3kg",
+      "lifestage": "all"
+    },
+    "sold": 8,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 5
+  },
+
+  {
+    "name": "Máy Cho Ăn Tự Động Petkit Fresh Element Solo",
+    "slug": "may-cho-an-tu-dong-petkit-fresh-element-solo",
+    "_categorySlug": "may-tu-dong",
+    "description": "Máy nhả hạt Petkit dung tích 3L, tương thích với nhiều loại hạt kể cả hạt sấy khô đông lạnh (freeze-dried), điều khiển qua app tiện lợi.",
+    "price": 1250000,
+    "discountPrice": 1150000,
+    "stock": 25,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748490/5_kzrbcx.png"
+    ],
+    "brand": "Petkit",
+    "attributes": {
+      "weight": "1.3kg",
+      "lifestage": "all"
+    },
+    "sold": 42,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 25
+  },
+  {
+    "name": "Máy Cho Ăn Tự Động Có Camera Rojeco",
+    "slug": "may-cho-an-tu-dong-co-camera-rojeco",
+    "_categorySlug": "may-tu-dong",
+    "description": "Tích hợp camera HD giúp quan sát thú cưng ăn uống từ xa, hỗ trợ đàm thoại 2 chiều và lên lịch ăn tự động qua Wifi.",
+    "price": 2100000,
+    "discountPrice": 1850000,
+    "stock": 10,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748488/4_moo0kc.png"
+    ],
+    "brand": "Rojeco",
+    "attributes": {
+      "weight": "2.5kg",
+      "lifestage": "all"
+    },
+    "sold": 15,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 8
+  },
+  {
+    "name": "Máy Lọc Nước Tự Động Petkit Eversweet 3",
+    "slug": "may-loc-nuoc-tu-dong-petkit-eversweet-3",
+    "_categorySlug": "may-tu-dong",
+    "description": "Máy cấp nước tự động với hệ thống lọc tuần hoàn, làm từ thép không gỉ 304 an toàn, siêu tĩnh âm giúp thú cưng uống nhiều nước hơn.",
+    "price": 1150000,
+    "discountPrice": 990000,
+    "stock": 30,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748487/3_ontqyk.png"
+    ],
+    "brand": "Petkit",
+    "attributes": {
+      "weight": "1kg",
+      "lifestage": "all"
+    },
+    "sold": 120,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 65
+  },
+  {
+    "name": "Máy Cho Ăn Tự Động Homerunpet",
+    "slug": "may-cho-an-tu-dong-homerunpet",
+    "_categorySlug": "may-tu-dong",
+    "description": "Thiết kế chống kẹt hạt thông minh, khoang chứa kín khí với gói hút ẩm giúp bảo quản hạt luôn tươi ngon và giòn.",
+    "price": 1450000,
+    "discountPrice": 1300000,
+    "stock": 18,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748485/2_flzclw.png"
+    ],
+    "brand": "Homerunpet",
+    "attributes": {
+      "weight": "1.8kg",
+      "lifestage": "all"
+    },
+    "sold": 28,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 14
+  },
+  {
+    "name": "Bình Đựng Nước Tự Động Cho Chó Mèo Kèm Bát",
+    "slug": "binh-dung-nuoc-tu-dong-cho-cho-meo-kem-bat",
+    "_categorySlug": "may-tu-dong",
+    "description": "Bình cấp nước không cần cắm điện, hoạt động dựa trên nguyên lý trọng lực, dung tích lớn phù hợp cho nhiều ngày.",
+    "price": 150000,
+    "discountPrice": 120000,
+    "stock": 100,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748483/10_ttklmx.png"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "weight": "500g",
+      "lifestage": "all"
+    },
+    "sold": 350,
+    "ratingsAverage": 4.5,
+    "numOfReviews": 110
+  },
+  {
+    "name": "Máy Cho Ăn Tự Động Aqara Smart Pet Feeder",
+    "slug": "may-cho-an-tu-dong-aqara-smart-pet-feeder",
+    "_categorySlug": "may-tu-dong",
+    "description": "Máy cho ăn thông minh hỗ trợ Zigbee 3.0, tích hợp dễ dàng vào hệ sinh thái nhà thông minh, điều khiển bằng giọng nói.",
+    "price": 2500000,
+    "discountPrice": 2300000,
+    "stock": 8,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748481/9_iac55s.png"
+    ],
+    "brand": "Aqara",
+    "attributes": {
+      "weight": "3.2kg",
+      "lifestage": "all"
+    },
+    "sold": 12,
+    "ratingsAverage": 5.0,
+    "numOfReviews": 4
+  },
+  {
+    "name": "Máy Lọc Nước Tự Động Trong Suốt Không Dây",
+    "slug": "may-loc-nuoc-tu-dong-trong-suot-khong-day",
+    "_categorySlug": "may-tu-dong",
+    "description": "Máy lọc nước thiết kế trong suốt dễ dàng theo dõi lượng nước, bơm cảm ứng không dây an toàn tuyệt đối chống rò rỉ điện.",
+    "price": 650000,
+    "discountPrice": 580000,
+    "stock": 45,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748470/8_cbpwne.png"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "weight": "800g",
+      "lifestage": "all"
+    },
+    "sold": 150,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 55
+  },
+  {
+    "name": "Máy Cho Ăn Tự Động Wopet 6L",
+    "slug": "may-cho-an-tu-dong-wopet-6l",
+    "_categorySlug": "may-tu-dong",
+    "description": "Dung tích cực lớn 6 lít, cho phép ghi âm giọng nói 10 giây để gọi thú cưng đến ăn, phù hợp cho chó lớn hoặc đi công tác dài ngày.",
+    "price": 1800000,
+    "discountPrice": 1650000,
+    "stock": 12,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748469/7_txtfcl.png"
+    ],
+    "brand": "Wopet",
+    "attributes": {
+      "weight": "2.8kg",
+      "lifestage": "adult"
+    },
+    "sold": 22,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 10
+  },
+
+  {
+    "name": "Khay Ăn Chậm Hẹn Giờ Thông Minh 6 Ngăn",
+    "slug": "khay-an-cham-hen-gio-thong-minh-6-ngan",
+    "_categorySlug": "may-tu-dong",
+    "description": "Thiết kế dạng khay tròn xoay với 6 ngăn riêng biệt, có thể dùng cho cả thức ăn ướt (pate) và thức ăn khô, hẹn giờ mở nắp.",
+    "price": 850000,
+    "discountPrice": 750000,
+    "stock": 20,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773879385/may-loc-nuoc-cho-cho-meo-tu-dong-tuan-hoan-paw-pet-radius-water-dispenser3_oazupp.jpg"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "weight": "1.5kg",
+      "lifestage": "all"
+    },
+    "sold": 55,
+    "ratingsAverage": 4.4,
+    "numOfReviews": 18
+  },
+  {
+    "name": "Máy Lọc Nước Tự Động Hình Bông Hoa",
+    "slug": "may-loc-nuoc-tu-dong-hinh-bong-hoa",
+    "_categorySlug": "may-tu-dong",
+    "description": "Máy bơm nước hình bông hoa tạo các dòng chảy khác nhau thu hút thú cưng uống nước, lõi lọc than hoạt tính khử mùi hiệu quả.",
+    "price": 250000,
+    "discountPrice": 190000,
+    "stock": 80,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773879380/may-loc-nuoc-cho-cho-meo-tu-dong-tuan-hoan-paw-pet-radius-water-dispenser-768x768_bkz5oo.jpg"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "weight": "600g",
+      "lifestage": "all"
+    },
+    "sold": 410,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 180
+  },
+
+  {
+    "name": "Cát Đất Sét Khử Mùi Bentonite",
+    "slug": "cat-dat-set-bentonite",
+    "_categorySlug": "do-dung-ve-sinh",
+    "description": "Cát vệ sinh vón cục siêu nhanh, hương chanh khử mùi hiệu quả.",
+    "price": 65000,
+    "stock": 300,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748236/5_wnzfbz.png"
+    ],
+
+    "brand": "Moon Cat",
+    "attributes": {
+      "weight": "8L",
+      "flavor": "Hương Chanh",
+      "lifestage": "all"
+    },
+    "sold": 450,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 88
+  },
+
+  {
+    "name": "Khay Vệ Sinh Mèo Có Thành Cao Chống Bắn",
+    "slug": "khay-ve-sinh-meo-co-thanh-cao-chong-ban",
+    "_categorySlug": "do-dung-ve-sinh",
+    "description": "Khay vệ sinh thiết kế thông minh với thành cao, hạn chế tối đa việc cát vương vãi ra sàn.",
+    "price": 120000,
+    "stock": 150,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748140/4_sploxh.png"
+    ],
+    "brand": "PetComfort",
+    "attributes": {
+      "size": "Lớn",
+      "color": "Xám",
+      "lifestage": "all"
+    },
+    "sold": 320,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 115
+  },
+  {
+    "name": "Tấm Lót Vệ Sinh Cho Chó Siêu Thấm Hút",
+    "slug": "tam-lot-ve-sinh-cho-cho-sieu-tham-hut",
+    "_categorySlug": "do-dung-ve-sinh",
+    "description": "Tã lót sàn khử mùi hôi, thấm hút cực nhanh nhờ lõi gel polymer, giữ cho không gian luôn sạch sẽ.",
+    "price": 150000,
+    "stock": 400,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748139/3_axgeil.png"
+    ],
+    "brand": "AbsorbPad",
+    "attributes": {
+      "size": "60x60cm",
+      "quantity": "50 miếng",
+      "lifestage": "all"
+    },
+    "sold": 890,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 210
+  },
+  {
+    "name": "Xẻng Xúc Cát Vệ Sinh Kim Loại Chống Rỉ",
+    "slug": "xeng-xuc-cat-ve-sinh-kim-loai-chong-ri",
+    "_categorySlug": "do-dung-ve-sinh",
+    "description": "Xẻng hợp kim nhôm siêu bền, rãnh lọt cát chuẩn giúp tiết kiệm cát tối đa.",
+    "price": 45000,
+    "stock": 500,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748137/2_vrtjno.png"
+    ],
+    "brand": "DuraScoop",
+    "attributes": {
+      "material": "Hợp kim nhôm",
+      "lifestage": "all"
+    },
+    "sold": 1200,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 340
+  },
+  {
+    "name": "Chai Xịt Khử Mùi Diệt Khuẩn Chuồng Trại",
+    "slug": "chai-xit-khu-mui-diet-khuan-chuong-trai",
+    "_categorySlug": "do-dung-ve-sinh",
+    "description": "Dung dịch xịt khử khuẩn an toàn, loại bỏ mùi hôi nước tiểu và phân ngay lập tức.",
+    "price": 85000,
+    "stock": 250,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748136/1_aasrrf.png"
+    ],
+    "brand": "OdorClear",
+    "attributes": {
+      "volume": "500ml",
+      "scent": "Trà Xanh",
+      "lifestage": "all"
+    },
+    "sold": 410,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 85
+  },
+  {
+    "name": "Sữa Tắm Cho Chó Lông Trắng Giữ Màu",
+    "slug": "sua-tam-cho-cho-long-trang-giu-mau",
+    "_categorySlug": "do-dung-ve-sinh",
+    "description": "Công thức đặc biệt giúp lông cún cưng luôn trắng sáng, không ố vàng, mềm mượt và thơm lâu.",
+    "price": 135000,
+    "stock": 180,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748135/10_kew2aa.png"
+    ],
+    "brand": "WhiteCoat",
+    "attributes": {
+      "volume": "400ml",
+      "flavor": "Hương Hoa Hồng",
+      "lifestage": "all"
+    },
+    "sold": 275,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 92
+  },
+  {
+    "name": "Khay Vệ Sinh Cho Chó Có Cọc Hướng Dẫn",
+    "slug": "khay-ve-sinh-cho-cho-co-coc-huong-dan",
+    "_categorySlug": "do-dung-ve-sinh",
+    "description": "Khay lót tã có kèm cọc tiểu, huấn luyện chó đực đi vệ sinh đúng chỗ dễ dàng.",
+    "price": 160000,
+    "stock": 120,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748134/9_j2wlx9.png"
+    ],
+    "brand": "SmartPotty",
+    "attributes": {
+      "size": "50x40cm",
+      "color": "Xanh Dương",
+      "lifestage": "all"
+    },
+    "sold": 190,
+    "ratingsAverage": 4.5,
+    "numOfReviews": 45
+  },
+  {
+    "name": "Bọt Tắm Khô Cho Mèo Sợ Nước",
+    "slug": "bot-tam-kho-cho-meo-so-nuoc",
+    "_categorySlug": "do-dung-ve-sinh",
+    "description": "Giải pháp làm sạch nhanh chóng không cần dùng nước, an toàn cho da nhạy cảm của mèo.",
+    "price": 95000,
+    "stock": 200,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748132/8_fuioht.png"
+    ],
+    "brand": "DryWash Cat",
+    "attributes": {
+      "volume": "200ml",
+      "flavor": "Hương Lavender",
+      "lifestage": "all"
+    },
+    "sold": 350,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 130
+  },
+  {
+    "name": "Dung Dịch Vệ Sinh Tai Chó Mèo Chống Viêm",
+    "slug": "dung-dich-ve-sinh-tai-cho-meo-chong-viem",
+    "_categorySlug": "do-dung-ve-sinh",
+    "description": "Nước nhỏ tai làm tan rỉ tai, diệt vi khuẩn và nấm, phòng ngừa viêm tai giữa hiệu quả.",
+    "price": 75000,
+    "stock": 350,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748131/7_cd21ps.png"
+    ],
+    "brand": "EarCare Plus",
+    "attributes": {
+      "volume": "120ml",
+      "lifestage": "all"
+    },
+    "sold": 520,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 178
+  },
+  {
+    "name": "Khăn Tắm Siêu Thấm Hút PVA",
+    "slug": "khan-tam-sieu-tham-hut-pva",
+    "_categorySlug": "do-dung-ve-sinh",
+    "description": "Khăn đa năng chất liệu PVA vắt kiệt nước cực nhanh, rút ngắn thời gian sấy khô lông thú cưng.",
+    "price": 55000,
+    "stock": 600,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748130/6_p7tqe7.png"
+    ],
+    "brand": "MagicTowel",
+    "attributes": {
+      "size": "43x66cm",
+      "material": "PVA",
+      "lifestage": "all"
+    },
+    "sold": 1500,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 425
+  },
+  {
+    "name": "Bỉm Quần Chống Tràn Cho Chó Cái Tới Tháng",
+    "slug": "bim-quan-chong-tran-cho-cho-cai-toi-thang",
+    "_categorySlug": "do-dung-ve-sinh",
+    "description": "Tã quần thiết kế vòng eo co giãn, có lỗ đuôi, thấm hút cực tốt giữ vệ sinh nhà cửa khi chó tới kỳ.",
+    "price": 110000,
+    "stock": 280,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773882458/14122412_zyp98r.jpg"
+    ],
+    "brand": "PetDiaper",
+    "attributes": {
+      "size": "Size M",
+      "quantity": "10 miếng",
+      "lifestage": "adult"
+    },
+    "sold": 410,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 65
+  },
+
+  {
+    "name": "Khay Vệ Sinh Mèo Thành Cao Chống Bắn",
+    "slug": "khay-ve-sinh-meo-thanh-cao",
+    "_categorySlug": "khay-ve-sinh",
+    "description": "Khay thiết kế thành cao giúp mèo không bới cát ra ngoài, kèm xẻng xúc.",
+    "price": 150000,
+    "discountPrice": 130000,
+    "stock": 60,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748382/7_j1p4wz.png"
+    ],
+    "brand": "Makar",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 75,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 21
+  },
+
+  {
+    "name": "Nhà Vệ Sinh Khép Kín Khử Mùi Cho Mèo",
+    "slug": "nha-ve-sinh-khep-kin-khu-mui-cho-meo",
+    "_categorySlug": "khay-ve-sinh",
+    "description": "Thiết kế dạng kín giúp ngăn mùi hôi và cát văng ra ngoài, có cửa lật 1 chiều và rãnh lưới lọc cát ở cửa ra.",
+    "price": 350000,
+    "discountPrice": 310000,
+    "stock": 45,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748383/1_hxi2w3.png"
+    ],
+    "brand": "Agility",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 120,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 56
+  },
+  {
+    "name": "Khay Vệ Sinh Chữ Nhật Bán Khép Kín",
+    "slug": "khay-ve-sinh-chu-nhat-ban-khep-kin",
+    "_categorySlug": "khay-ve-sinh",
+    "description": "Thành tháo rời tiện lợi, không gian rộng rãi, dễ dàng quan sát và dọn dẹp phân mèo hàng ngày.",
+    "price": 120000,
+    "discountPrice": 990000,
+    "stock": 150,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748381/6_blgwvd.png"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 340,
+    "ratingsAverage": 4.5,
+    "numOfReviews": 89
+  },
+  {
+    "name": "Khay Vệ Sinh Cho Chó ",
+    "slug": "khay-ve-sinh-cho-cho",
+    "_categorySlug": "khay-ve-sinh",
+    "description": "Khay lót tã cho chó đực có cọc nhắm mục tiêu, thiết kế lưới bảo vệ chân cún không bị dính nước tiểu.",
+    "price": 180000,
+    "discountPrice": 165000,
+    "stock": 80,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748379/5_bpogcf.png"
+    ],
+    "brand": "Makar",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 215,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 72
+  },
+  {
+    "name": "Chậu Cát Mèo Hình Oval Tặng Kèm Xẻng",
+    "slug": "chau-cat-meo-hinh-oval-tang-kem-xeng",
+    "_categorySlug": "khay-ve-sinh",
+    "description": "Kiểu dáng oval mềm mại, màu sắc pastel xinh xắn, chất liệu nhựa PP nguyên sinh thân thiện với môi trường.",
+    "price": 85000,
+    "discountPrice": 75000,
+    "stock": 200,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748377/4_h8oql4.png"
+    ],
+    "brand": "Taotaopets",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 540,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 135
+  },
+  {
+    "name": "Nhà Vệ Sinh Mèo Size Jumbo Dành Cho Mèo Lớn",
+    "slug": "nha-ve-sinh-meo-size-jumbo-danh-cho-meo-lon",
+    "_categorySlug": "khay-ve-sinh",
+    "description": "Không gian siêu rộng dành cho mèo trên 7kg hoặc nhà nuôi nhiều mèo, tích hợp ngăn để sáp khử mùi trên nắp.",
+    "price": 450000,
+    "discountPrice": 420000,
+    "stock": 35,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748376/3_blmmqh.png"
+    ],
+    "brand": "Catidea",
+    "attributes": {
+      "lifestage": "adult"
+    },
+    "sold": 95,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 41
+  },
+  {
+    "name": "Khay Vệ Sinh Lưới Phẳng Cho Chó Size Nhỏ",
+    "slug": "khay-ve-sinh-luoi-phang-cho-cho-size-nho",
+    "_categorySlug": "khay-ve-sinh",
+    "description": "Thích hợp kẹp tấm lót vệ sinh ở dưới, bề mặt lưới phẳng giúp giữ sạch bàn chân cún, dễ dàng rửa sạch bằng vòi xịt.",
+    "price": 140000,
+    "discountPrice": 125000,
+    "stock": 110,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773748375/2_pk3n5y.png"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "lifestage": "puppy"
+    },
+    "sold": 320,
+    "ratingsAverage": 4.5,
+    "numOfReviews": 84
+  },
+  {
+    "name": "Khay Gấp Gọn Mang Đi Du Lịch Chống Thấm",
+    "slug": "khay-gap-gon-mang-di-du-lich-chong-tham",
+    "_categorySlug": "khay-ve-sinh",
+    "description": "Khay làm từ vải Oxford dày dặn chống thấm nước tuyệt đối, dễ dàng gấp gọn mang theo khi đi chơi xa, dã ngoại.",
+    "price": 110000,
+    "discountPrice": 95000,
+    "stock": 65,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773879742/nha-ve-sinh-cho-meo-iris-wnt510-768x768_mngwx3.jpg"
+    ],
+    "brand": "Pakeway",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 160,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 50
+  },
+  {
+    "name": "Nhà Vệ Sinh Kéo Ngăn Kéo Phía Dưới",
+    "slug": "nha-ve-sinh-keo-ngan-keo-phia-duoi",
+    "_categorySlug": "khay-ve-sinh",
+    "description": "Thiết kế hộc kéo thông minh ở đáy giúp bạn thay cát và dọn vệ sinh nhanh chóng mà không cần tháo toàn bộ nắp chụp.",
+    "price": 380000,
+    "discountPrice": 350000,
+    "stock": 50,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773879742/3_zjqj2j.jpg"
+    ],
+    "brand": "Hipidog",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 220,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 92
+  },
+  {
+    "name": "Khay Vệ Sinh Bán Tự Động Xoay Lọc Cát",
+    "slug": "khay-ve-sinh-ban-tu-dong-xoay-loc-cat",
+    "_categorySlug": "khay-ve-sinh",
+    "description": "Bạn chỉ cần lăn nghiêng khay, lưới lọc bên trong sẽ tự động tách phần cát vón cục đổ vào ngăn chứa rác siêu tiện dụng.",
+    "price": 750000,
+    "discountPrice": 690000,
+    "stock": 25,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773879764/ve-sinh-cho-meo-makar-deodorized-cat-litter-box_koz0dj.jpg"
+    ],
+    "brand": "Omega Paw",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 68,
+    "ratingsAverage": 4.4,
+    "numOfReviews": 27
+  },
+  {
+    "name": "Chậu Cát Vệ Sinh Viền Thấp Cho Mèo Con",
+    "slug": "chau-cat-ve-sinh-vien-thap-cho-meo-con",
+    "_categorySlug": "khay-ve-sinh",
+    "description": "Viền chậu hạ thấp giúp mèo con hoặc mèo lớn tuổi dễ dàng bước vào mà không bị vấp, thiết kế nhỏ gọn tiết kiệm diện tích.",
+    "price": 60000,
+    "discountPrice": 50000,
+    "stock": 300,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773879741/111111_zcunxd.jpg"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "lifestage": "kitten"
+    },
+    "sold": 410,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 115
+  },
+
+  {
+    "name": "Áo Len Mùa Đông Họa Tiết Tuần Lộc",
+    "slug": "ao-len-mua-dong-tuan-loc",
+    "_categorySlug": "ao",
+    "description": "Áo len giữ ấm cho chó mèo vào mùa lạnh, chất liệu len xù mềm mại.",
+    "price": 95000,
+    "stock": 120,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747913/8_zqo7xh.png"
+    ],
+    "brand": "PetFashion",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 200,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 55
+  },
+
+  {
+    "name": "Áo Thun Cotton Mùa Hè Hình Khủng Long",
+    "slug": "ao-thun-cotton-hinh-khung-long",
+    "_categorySlug": "ao",
+    "description": "Áo thun vải cotton 100% thoáng mát, thấm hút mồ hôi tốt, in hình khủng long ngộ nghĩnh.",
+    "price": 45000,
+    "stock": 250,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747914/1_bgv3ry.png"
+    ],
+    "brand": "PetFashion",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 450,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 120
+  },
+  {
+    "name": "Áo Khoác Phao Chống Nước Cao Cấp",
+    "slug": "ao-khoac-phao-chong-nuoc",
+    "_categorySlug": "ao",
+    "description": "Áo phao siêu nhẹ, cản gió và chống nước nhẹ, bên trong lót nỉ ấm áp cho mùa đông.",
+    "price": 150000,
+    "stock": 80,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747911/6_lzqxnh.png"
+    ],
+    "brand": "Taotaopets",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 115,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 42
+  },
+  {
+    "name": "Áo Sơ Mi Kẻ Caro Phong Cách Hàn Quốc",
+    "slug": "ao-so-mi-ke-caro",
+    "_categorySlug": "ao",
+    "description": "Áo sơ mi thanh lịch, thiết kế khuy cài dễ mặc, phù hợp cho thú cưng đi dạo hoặc đi tiệc.",
+    "price": 85000,
+    "stock": 150,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747908/5_zehfiq.png"
+    ],
+    "brand": "PetFashion",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 320,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 89
+  },
+  {
+    "name": "Áo Hoodie Thể Thao Năng Động",
+    "slug": "ao-hoodie-the-thao",
+    "_categorySlug": "ao",
+    "description": "Áo nỉ có mũ (hoodie) trẻ trung, bo chun ở gấu áo và ống tay giúp giữ form và cản gió.",
+    "price": 110000,
+    "stock": 100,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747908/4_itdgam.png"
+    ],
+    "brand": "Hipidog",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 210,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 65
+  },
+  {
+    "name": "Áo Vest Lịch Lãm Dự Tiệc Kèm Nơ",
+    "slug": "ao-vest-lich-lam",
+    "_categorySlug": "ao",
+    "description": "Bộ suit giả vest sang trọng kèm nơ cổ, biến chú cún/mèo nhà bạn thành một quý ông đích thực.",
+    "price": 180000,
+    "stock": 40,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747907/3_tv9eg5.png"
+    ],
+    "brand": "PetFashion",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 68,
+    "ratingsAverage": 5.0,
+    "numOfReviews": 25
+  },
+  {
+    "name": "Áo Thể Thao In Số Cầu Thủ",
+    "slug": "ao-the-thao-in-so",
+    "_categorySlug": "ao",
+    "description": "Vải thun lạnh siêu mát, co giãn tốt, in số và logo các đội bóng nổi tiếng.",
+    "price": 55000,
+    "stock": 300,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747906/2_wi1hkr.png"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 600,
+    "ratingsAverage": 4.5,
+    "numOfReviews": 145
+  },
+  {
+    "name": "Áo Cử Nhân Chụp Ảnh Kỷ Niệm",
+    "slug": "ao-cu-nhan-chup-anh",
+    "_categorySlug": "ao",
+    "description": "Set áo kèm mũ cử nhân độc đáo, dùng để làm đạo cụ chụp ảnh sống ảo cho thú cưng.",
+    "price": 120000,
+    "stock": 60,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773880089/quan-ao-cho-cho-meo-ambaby-pet-2jxf167_fab5gu.jpg"
+    ],
+    "brand": "Taotaopets",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 135,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 50
+  },
+  {
+    "name": "Áo Khoác Lót Lông Cừu Dày Dặn",
+    "slug": "ao-khoac-lot-long-cuu",
+    "_categorySlug": "ao",
+    "description": "Mặt ngoài vải da lộn, mặt trong lót lông cừu nhân tạo cực kỳ ấm áp cho những ngày đại hàn.",
+    "price": 165000,
+    "stock": 70,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773880088/quan-ao-cho-cho-meo-ambaby-pet-2jxf167-2_uvpycb.jpg"
+    ],
+    "brand": "Hipidog",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 90,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 38
+  },
+  {
+    "name": "Áo Lưới Ba Lỗ Mùa Hè Siêu Mát",
+    "slug": "ao-luoi-ba-lo-mua-he",
+    "_categorySlug": "ao",
+    "description": "Áo dạng lưới ba lỗ giải nhiệt mùa hè, ngăn ngừa rụng lông ra nhà nhưng không làm thú cưng bị nóng.",
+    "price": 35000,
+    "stock": 400,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773880088/quan-ao-cho-cho-meo-ambaby-pet-2jxf167-1_xe3i3o.jpg"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 850,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 210
+  },
+  {
+    "name": "Áo Hóa Trang Cảnh Sát Cực Ngầu",
+    "slug": "ao-hoa-trang-canh-sat",
+    "_categorySlug": "ao",
+    "description": "Trang phục cosplay cảnh sát đứng bằng 2 chân, mang lại những tràng cười sảng khoái cho gia đình.",
+    "price": 135000,
+    "stock": 50,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773880088/quan-ao-cho-cho-meo-ambaby-pet-2jxf216_kqmkzg.jpg"
+    ],
+    "brand": "PetFashion",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 180,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 76
+  },
+
+  {
+    "name": "Balo Phi Hành Gia Trong Suốt",
+    "slug": "balo-phi-hanh-gia-trong-suot",
+    "_categorySlug": "balo",
+    "description": "Balo vận chuyển thú cưng nắp kính vòm, có lỗ thoáng khí rộng rãi (phù hợp pet <7kg).",
+    "price": 250000,
+    "discountPrice": 199000,
+    "stock": 45,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747751/3_ucvqp3.png"
+    ],
+    "brand": "SpacePet",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 110,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 42
+  },
+
+  {
+    "name": "Balo Vải Oxford Gấp Gọn Có Khung Thép",
+    "slug": "balo-vai-oxford-gap-gon-co-khung-thep",
+    "_categorySlug": "balo",
+    "description": "Balo làm từ vải Oxford siêu bền, có khung thép giữ form cứng cáp, phù hợp cho thú cưng dưới 8kg.",
+    "price": 350000,
+    "discountPrice": 279000,
+    "stock": 30,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747755/1_k9a7xg.png"
+    ],
+    "brand": "PetCare",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 85,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 26
+  },
+  {
+    "name": "Balo Mở Rộng Phía Sau Thành Lều Nằm",
+    "slug": "balo-mo-rong-phia-sau-thanh-leu-nam",
+    "_categorySlug": "balo",
+    "description": "Balo thông minh có thể mở rộng phía sau tạo thành không gian lều rộng rãi cho thú cưng nghỉ ngơi khi đi dã ngoại.",
+    "price": 450000,
+    "discountPrice": 389000,
+    "stock": 15,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747754/5_hf3b6m.png"
+    ],
+    "brand": "TravelPet",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 120,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 55
+  },
+  {
+    "name": "Balo Lưới Toàn Diện Siêu Thoáng Khí",
+    "slug": "balo-luoi-toan-dien-sieu-thoang-khi",
+    "_categorySlug": "balo",
+    "description": "Thiết kế 3 mặt lưới giúp tối đa hóa sự lưu thông không khí, thích hợp dùng trong mùa hè oi bức.",
+    "price": 220000,
+    "discountPrice": 165000,
+    "stock": 60,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747754/6_yql8tc.png"
+    ],
+    "brand": "AiryCat",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 205,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 89
+  },
+  {
+    "name": "Balo Cần Kéo Có Bánh Xe Cao Cấp",
+    "slug": "balo-can-keo-co-banh-xe-cao-cap",
+    "_categorySlug": "balo",
+    "description": "Balo đa năng tích hợp cần kéo và bánh xe 360 độ, giảm tải sức nặng cho chủ nhân khi vận chuyển pet lớn (dưới 12kg).",
+    "price": 850000,
+    "discountPrice": 720000,
+    "stock": 10,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747752/4_ccvpgy.png"
+    ],
+    "brand": "LuggagePet",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 34,
+    "ratingsAverage": 5.0,
+    "numOfReviews": 18
+  },
+  {
+    "name": "Địu Vải Đeo Trước Ngực Cho Chó Mèo Phốc Sóc",
+    "slug": "diu-vai-deo-truoc-nguc-cho-cho-meo-phoc-soc",
+    "_categorySlug": "balo",
+    "description": "Túi địu phía trước giúp bạn dễ dàng tương tác với thú cưng trên đường đi. Phù hợp cho pet nhỏ dưới 4kg.",
+    "price": 180000,
+    "discountPrice": 125000,
+    "stock": 100,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747751/3_ucvqp3.png"
+    ],
+    "brand": "HugMe",
+    "attributes": {
+      "lifestage": "puppy"
+    },
+    "sold": 310,
+    "ratingsAverage": 4.5,
+    "numOfReviews": 112
+  },
+  {
+    "name": "Balo Da PU Sang Trọng Kèm Lỗ Thông Gió",
+    "slug": "balo-da-pu-sang-trong-kem-lo-thong-gio",
+    "_categorySlug": "balo",
+    "description": "Balo chất liệu da PU chống nước, sang trọng, dễ dàng lau chùi vệ sinh, bên hông có nhiều lỗ đục thông gió.",
+    "price": 420000,
+    "discountPrice": 349000,
+    "stock": 25,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773881002/balo-dung-cho-meo-dang-hop-mat-luoi-loffe-pet-space-backpack123_iezogq.jpg"
+    ],
+    "brand": "LuxuryPet",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 60,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 31
+  },
+  {
+    "name": "Balo Vuông Cửa Cuốn Vải Canvas Phong Cách Hàn Quốc",
+    "slug": "balo-vuong-cua-cuon-vai-canvas-phong-cach-han-quoc",
+    "_categorySlug": "balo",
+    "description": "Thiết kế hình hộp vuông vintage, có rèm cuốn che nắng phía trước, tạo cảm giác an toàn cho mèo nhát.",
+    "price": 310000,
+    "discountPrice": 250000,
+    "stock": 40,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773881002/balo-dung-cho-meo-phi-hanh-gia-loffe-outdoor-transparent_rio1l3.jpg"
+    ],
+    "brand": "K-Pet",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 155,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 67
+  },
+  {
+    "name": "Balo Phi Hành Gia Nhựa Phủ Mica Đen Mờ",
+    "slug": "balo-phi-hanh-gia-nhua-phu-mica-den-mo",
+    "_categorySlug": "balo",
+    "description": "Kính vòm được phủ lớp đen mờ giúp giảm cường độ ánh sáng, bảo vệ mắt thú cưng khi ra ngoài nắng.",
+    "price": 280000,
+    "discountPrice": 215000,
+    "stock": 55,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773881003/balo-dung-cho-meo-phi-hanh-gia-loffe-supreme_rt2auy.jpg"
+    ],
+    "brand": "SpacePet",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 90,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 40
+  },
+  {
+    "name": "Túi Xách Kết Hợp Balo Gấp Gọn Đa Năng",
+    "slug": "tui-xach-ket-hop-balo-gap-gon-da-nang",
+    "_categorySlug": "balo",
+    "description": "Vừa có thể xách tay như túi tote, vừa có quai đeo thành balo. Khi không sử dụng có thể gấp dẹt lại siêu gọn.",
+    "price": 190000,
+    "discountPrice": 149000,
+    "stock": 80,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773881003/balo-cho-meo-hinh-vo-trung-loffe-eggshell_y7a6f6.jpg"
+    ],
+    "brand": "FlexiBag",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 220,
+    "ratingsAverage": 4.4,
+    "numOfReviews": 95
+  },
+  {
+    "name": "Balo Capsule Hoạt Hình Dễ Thương Cho Mèo Con",
+    "slug": "balo-capsule-hoat-hinh-de-thuong-cho-meo-con",
+    "_categorySlug": "balo",
+    "description": "Balo size mini in họa tiết hoạt hình nổi bật, trọng lượng siêu nhẹ, phù hợp cho mèo con và thỏ rừng.",
+    "price": 230000,
+    "discountPrice": 175000,
+    "stock": 42,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773881005/balo-dung-cho-meo-trong-suot-hinh-dong-vat-loffe-animal-backpack_ddfof4.jpg"
+    ],
+    "brand": "CutePets",
+    "attributes": {
+      "lifestage": "puppy"
+    },
+    "sold": 130,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 73
+  },
+
+  {
+    "name": "Nệm Ngủ Tròn Đệm Bông Dày Xốp",
+    "slug": "nem-ngu-tron-dem-bong",
+    "_categorySlug": "nem",
+    "description": "Nệm êm ái giữ ấm tốt, có thể giặt máy, tạo cảm giác an toàn cho bé khi ngủ.",
+    "price": 180000,
+    "stock": 25,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747464/2_ao0dcu.png"
+    ],
+    "brand": "SweetSleep",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 30,
+    "ratingsAverage": 4.5,
+    "numOfReviews": 12
+  },
+
+  {
+    "name": "Nệm Lạnh Mùa Hè Họa Tiết Trái Cây",
+    "slug": "nem-lanh-mua-he-hoa-tiet-trai-cay",
+    "_categorySlug": "nem",
+    "description": "Thảm nệm tản nhiệt với lõi gel làm mát tự nhiên, bề mặt vải lụa băng siêu mát, phù hợp cho ngày hè nóng nực.",
+    "price": 120000,
+    "stock": 150,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747464/4_vovpks.png"
+    ],
+    "brand": "Taotaopets",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 450,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 112
+  },
+  {
+    "name": "Giường Sofa Chó Mèo Cao Cấp Đệm Dày",
+    "slug": "giuong-sofa-cho-meo-cao-cap-dem-day",
+    "_categorySlug": "nem",
+    "description": "Giường dáng sofa với 3 viền tựa lưng chắc chắn, vỏ đệm tháo rời bằng khóa kéo để giặt sạch dễ dàng.",
+    "price": 350000,
+    "stock": 60,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747466/5_clrprw.png"
+    ],
+    "brand": "SweetSleep",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 125,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 45
+  },
+  {
+    "name": "Ổ Ngủ Bông Dạng Hang Kín Khép Kín",
+    "slug": "o-ngu-bong-dang-hang-kin-khep-kin",
+    "_categorySlug": "nem",
+    "description": "Thiết kế dạng hang động tạo cảm giác an toàn tuyệt đối cho mèo, nhồi bông PP đàn hồi cao chống xẹp lún.",
+    "price": 220000,
+    "stock": 85,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747466/3_qjvp0d.png"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 280,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 89
+  },
+  {
+    "name": "Thảm Ngủ Lót Chuồng Lót Lông Cừu",
+    "slug": "tham-ngu-lot-chuong-lot-long-cuu",
+    "_categorySlug": "nem",
+    "description": "Thảm mỏng nhẹ lót đáy chuồng hoặc ghế ô tô, mặt trên lót lông cừu ấm áp, mặt dưới có hạt cao su chống trượt.",
+    "price": 85000,
+    "stock": 200,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747467/6_vetsye.png"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 620,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 145
+  },
+  {
+    "name": "Nệm Võng Treo Tường Gắn Kính Cho Mèo",
+    "slug": "nem-vong-treo-tuong-gan-kinh-cho-meo",
+    "_categorySlug": "nem",
+    "description": "Võng hít kính chịu lực lên đến 15kg, giúp mèo thư giãn sưởi nắng và ngắm cảnh ngoài cửa sổ cả ngày.",
+    "price": 165000,
+    "stock": 110,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747468/7_wph6fm.png"
+    ],
+    "brand": "Taotaopets",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 340,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 92
+  },
+  {
+    "name": "Nệm Chữ Nhật Trị Liệu Đệm Memory Foam",
+    "slug": "nem-chu-nhat-tri-lieu-dem-memory-foam",
+    "_categorySlug": "nem",
+    "description": "Nệm bọt biển ghi nhớ (memory foam) phân bổ đều trọng lượng, cực kỳ tốt cho xương khớp của chó lớn tuổi.",
+    "price": 450000,
+    "stock": 40,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747470/1_pype2b.jpg"
+    ],
+    "brand": "Petkit",
+    "attributes": {
+      "lifestage": "adult"
+    },
+    "sold": 65,
+    "ratingsAverage": 5.0,
+    "numOfReviews": 28
+  },
+  {
+    "name": "Giường Ngủ Gỗ Căng Vải Canvas Vintage",
+    "slug": "giuong-ngu-go-cang-vai-canvas-vintage",
+    "_categorySlug": "nem",
+    "description": "Khung gỗ thông tự nhiên chắc chắn kết hợp vải canvas thoáng khí, cách ly thú cưng khỏi mặt đất ẩm ướt.",
+    "price": 250000,
+    "stock": 70,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747469/9_vcux4i.png"
+    ],
+    "brand": "Hipidog",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 150,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 55
+  },
+  {
+    "name": "Ổ Nệm Hình Bánh Tart Trứng Xinh Xắn",
+    "slug": "o-nem-hinh-banh-tart-trung-xinh-xan",
+    "_categorySlug": "nem",
+    "description": "Nệm thiết kế mô phỏng chiếc bánh trứng với viền bánh gấp nếp, vừa là chỗ ngủ vừa trang trí nhà siêu cute.",
+    "price": 195000,
+    "stock": 95,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773880674/nem-cho-cho-meo-hinh-vuong-hoa-van-hinh-cho-elite_aopfru.jpg"
+    ],
+    "brand": "SweetSleep",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 210,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 74
+  },
+  {
+    "name": "Nệm Bát Giác Lót Bông Cho Chó Lớn",
+    "slug": "nem-bat-giac-lot-bong-cho-cho-lon",
+    "_categorySlug": "nem",
+    "description": "Kích thước khổng lồ với form bát giác rộng rãi, viền nhô cao làm gối đầu thoải mái cho các dòng chó ngáo, Golden.",
+    "price": 380000,
+    "stock": 35,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773880673/nem-cho-cho-meo-hinh-vuong-elite_ur4krv.jpg"
+    ],
+    "brand": "Makar",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 90,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 33
+  },
+  {
+    "name": "Nệm Quây Mùa Đông Hình Chó Bull",
+    "slug": "nem-quay-mua-dong-hinh-cho-bull",
+    "_categorySlug": "nem",
+    "description": "Chất liệu nỉ nhung mềm mại, thiết kế quây tròn chắn gió, họa tiết hình mặt chú chó ngộ nghĩnh.",
+    "price": 160000,
+    "stock": 130,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773880672/nem-cho-cho-meo-hoa-tiet-ke-soc-elite_r6qkmt.jpg"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 380,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 105
+  },
+
+  {
+    "name": "Bàn Cào Móng Gợn Sóng Kèm Cỏ Mèo",
+    "slug": "ban-cao-mong-gon-song",
+    "_categorySlug": "ban-cao",
+    "description": "Bàn cào carton ép cứng, thiết kế lượn sóng, tặng kèm 1 gói cỏ catnip.",
+    "price": 45000,
+    "stock": 150,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747381/3_xo6c9e.png"
+    ],
+    "brand": "CatLife",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 320,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 95
+  },
+
+  {
+    "name": "Bàn Cào Móng Hình Tròn Kèm Bóng Đồ Chơi",
+    "slug": "ban-cao-mong-hinh-tron-kem-bong",
+    "_categorySlug": "ban-cao",
+    "description": "Thiết kế mâm tròn tích hợp rãnh bóng lăn xung quanh, vừa cào móng vừa kích thích bản năng săn mồi của mèo.",
+    "price": 85000,
+    "stock": 120,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747382/round_scratcher_ball.png"
+    ],
+    "brand": "CatLife",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 410,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 115
+  },
+  {
+    "name": "Trụ Cào Móng Quấn Dây Thừng Sisal Tự Nhiên",
+    "slug": "tru-cao-mong-quan-day-thung-sisal",
+    "_categorySlug": "ban-cao",
+    "description": "Trụ đứng vững chắc quấn dây thừng sisal siêu bền, giúp mèo leo trèo và cào móng không bị vụn rác ra sàn.",
+    "price": 120000,
+    "stock": 85,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747380/5_hhgim6.png"
+    ],
+    "brand": "Taotaopets",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 250,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 65
+  },
+  {
+    "name": "Bàn Cào Móng Chữ L Ốp Tường Chống Trượt",
+    "slug": "ban-cao-mong-chu-l-op-tuong",
+    "_categorySlug": "ban-cao",
+    "description": "Bàn cào carton đứng hình chữ L, có thể đặt sát góc tường, bảo vệ sofa và rèm cửa khỏi móng vuốt của boss.",
+    "price": 150000,
+    "stock": 60,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747379/4_we4oct.png"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 180,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 42
+  },
+  {
+    "name": "Nhà Giấy Carton Cào Móng 2 Trong 1",
+    "slug": "nha-giay-carton-cao-mong-2-trong-1",
+    "_categorySlug": "ban-cao",
+    "description": "Vừa là ngôi nhà nhỏ xinh xắn để mèo ẩn nấp, vừa có lớp sàn lót bằng bìa carton ép cứng để cào móng thỏa thích.",
+    "price": 195000,
+    "stock": 40,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747380/2_vfk3zi.png"
+    ],
+    "brand": "CatLife",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 95,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 28
+  },
+  {
+    "name": "Thảm Cào Móng Dán Chân Bàn Ghế Sofa",
+    "slug": "tham-cao-mong-dan-chan-ban-ghe",
+    "_categorySlug": "ban-cao",
+    "description": "Thảm dệt từ sợi gai dầu có miếng dán gai (velcro), dễ dàng quấn quanh chân bàn, ghế, sofa để bảo vệ nội thất.",
+    "price": 55000,
+    "stock": 300,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747379/1_scuvv6.png"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 650,
+    "ratingsAverage": 4.5,
+    "numOfReviews": 180
+  },
+  {
+    "name": "Bàn Cào Móng Hình Khúc Gỗ Gắn Lông Chim",
+    "slug": "ban-cao-mong-hinh-khuc-go",
+    "_categorySlug": "ban-cao",
+    "description": "Bàn cào họa tiết vân gỗ bắt mắt, được gắn thêm cần câu lông chim lò xo nhún nhảy thu hút sự chú ý của mèo.",
+    "price": 95000,
+    "stock": 110,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773747379/1_scuvv6.png"
+    ],
+    "brand": "CatLife",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 315,
+    "ratingsAverage": 4.8,
+    "numOfReviews": 85
+  },
+  {
+    "name": "Cây Cào Móng Tích Hợp Võng Ngủ Mini",
+    "slug": "cay-cao-mong-tich-hop-vong-ngu-mini",
+    "_categorySlug": "ban-cao",
+    "description": "Cat tree mini gồm 1 trụ cào móng và 1 võng lót lông êm ái, tiết kiệm diện tích, phù hợp cho mèo con và mèo dưới 5kg.",
+    "price": 250000,
+    "stock": 35,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773881372/ban-cao-mong-cho-meo-dang-bia-cuon-tron-paw-cat-scratcher-collapsible_td1s1r.jpg"
+    ],
+    "brand": "Taotaopets",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 140,
+    "ratingsAverage": 4.9,
+    "numOfReviews": 50
+  },
+  {
+    "name": "Bàn Cào Móng Hình Thỏi Vàng May Mắn",
+    "slug": "ban-cao-mong-hinh-thoi-vang",
+    "_categorySlug": "ban-cao",
+    "description": "Bàn cào carton khổng lồ hình thỏi vàng sang chảnh, lõi cực kỳ dày dặn, có thể lật ngược lại dùng mặt thứ 2.",
+    "price": 145000,
+    "stock": 70,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773881369/ban-cao-mong-cho-meo-kem-o-qq80337_ifpq6k.jpg"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 220,
+    "ratingsAverage": 4.7,
+    "numOfReviews": 68
+  },
+  {
+    "name": "Bàn Cào Thảm Gai Nửa Vầng Trăng Treo Tường",
+    "slug": "ban-cao-tham-gai-nua-vang-trang",
+    "_categorySlug": "ban-cao",
+    "description": "Thảm cào đan từ sợi đay kết hợp form gỗ nửa vầng trăng, có kèm đinh vít để gắn chắc chắn lên tường cho mèo vươn người.",
+    "price": 180000,
+    "stock": 45,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773881369/ban-cao-mong-cho-meo-dang-cong-luon-song_n3cmcd.jpg"
+    ],
+    "brand": "OEM",
+    "attributes": {
+      "lifestage": "all"
+    },
+    "sold": 85,
+    "ratingsAverage": 4.6,
+    "numOfReviews": 25
+  },
+  {
+    "name": "Ổ Cào Móng Lòng Chảo Khổng Lồ Cho Mèo Mập",
+    "slug": "o-cao-mong-long-chao-khong-lo",
+    "_categorySlug": "ban-cao",
+    "description": "Thiết kế lõm vào trong giống như một chiếc giường êm ái, đường kính lớn lên đến 45cm, phù hợp cho các bé mèo mập mạp nằm ngủ.",
+    "price": 160000,
+    "stock": 100,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773881368/ban-cao-mong-cho-meo-bia-giay-cat-tong-paw-billow-carton-cat-scratcher_ji2pqf.jpg"
+    ],
+    "brand": "CatLife",
+    "attributes": {
+      "lifestage": "adult"
+    },
+    "sold": 540,
+    "ratingsAverage": 5.0,
+    "numOfReviews": 135
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Thực Phẩm",
+    "slug": "thuc-pham",
+    "type": "product",
+    "description": "Đầy đủ các loại hạt, xúp thưởng và pate dinh dưỡng cho chó và mèo.",
+    "subcategories": [
+      {
+        "name": "Thức ăn cho chó",
+        "slug": "thuc-an-cho-cho"
+      },
+      {
+        "name": "Thức ăn cho mèo",
+        "slug": "thuc-an-cho-meo"
+      }
+    ]
+  },
+  {
+    "name": "Dụng Cụ Ăn Uống",
+    "slug": "dung-cu-an-uong",
+    "type": "product",
+    "description": "Chén ăn, bát nước và các loại máy tự động cung cấp thức ăn, nước uống.",
+    "subcategories": [
+      {
+        "name": "Chén Ăn",
+        "slug": "chen-an"
+      },
+      {
+        "name": "Máy Tự Động",
+        "slug": "may-tu-dong"
+      }
+    ]
+  },
+  {
+    "name": "Vệ Sinh Thú Cưng",
+    "slug": "ve-sinh-thu-cung",
+    "type": "product",
+    "description": "Khay vệ sinh, tã lót, cát và các đồ dùng vệ sinh khử mùi khác.",
+    "subcategories": [
+      {
+        "name": "Đồ Dùng Vệ Sinh",
+        "slug": "do-dung-ve-sinh"
+      },
+      {
+        "name": "Khay Vệ Sinh",
+        "slug": "khay-ve-sinh"
+      }
+    ]
+  },
+  {
+    "name": "Trang Phục & Di Chuyển",
+    "slug": "trang-phuc-di-chuyen",
+    "type": "product",
+    "description": "Áo quần thời trang và balo, lồng vận chuyển an toàn cho thú cưng.",
+    "subcategories": [
+      {
+        "name": "Áo",
+        "slug": "ao"
+      },
+      {
+        "name": "Balo",
+        "slug": "balo"
+      }
+    ]
+  },
+  {
+    "name": "Chỗ Ở & Giải Trí",
+    "slug": "cho-o-giai-tri",
+    "type": "product",
+    "description": "Nệm ngủ êm ái, bàn cào móng và các đồ chơi giúp thú cưng thư giãn.",
+    "subcategories": [
+      {
+        "name": "Nệm",
+        "slug": "nem"
+      },
+      {
+        "name": "Bàn Cào",
+        "slug": "ban-cao"
+      }
+    ]
+  },
+  {
+    "name": "Spa & Grooming",
+    "slug": "spa-grooming",
+    "type": "service",
+    "description": "Dịch vụ tắm sấy, cắt tỉa lông chuyên nghiệp.",
+    "subcategories": [
+      {
+        "name": "Tắm sấy",
+        "slug": "tam-say"
+      },
+      {
+        "name": "Cắt tỉa lông",
+        "slug": "cat-tia-long"
+      }
+    ]
+  },
+  {
+    "name": "Khám Thú Y",
+    "slug": "kham-thu-y",
+    "type": "service",
+    "description": "Khám tổng quát, tiêm phòng và điều trị cho thú cưng.",
+    "subcategories": [
+      {
+        "name": "Khám tổng quát",
+        "slug": "kham-tong-quat"
+      },
+      {
+        "name": "Tiêm phòng",
+        "slug": "tiem-phong"
+      },
+      {
+        "name": "Điều trị",
+        "slug": "dieu-tri"
+      }
+    ]
+  }
+]

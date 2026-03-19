@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Tắm Sấy Trọn Gói",
+    "slug": "tam-say-tron-goi",
+    "_categorySlug": "tam-say",
+    "description": "Bao gồm: Cắt móng, vệ sinh tai, vắt tuyến hôi, tắm xả và sấy thơm tho.",
+    "basePrice": 150000,
+    "priceVariations": [
+      { "condition": "Dưới 5kg", "price": 150000 },
+      { "condition": "Từ 5 - 10kg", "price": 200000 },
+      { "condition": "Trên 10kg", "price": 250000 }
+    ],
+    "duration": 60,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749810/4_ajrd6r.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773888655/tai-xuong-2025-10-21T151328.386_bsytyx.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773888654/1111_kreci0.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773889057/tam2_cxpiiv.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773889057/tam4_w8us1n.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773889057/tam3_nnt8um.jpg"
+    ],
+    "ratingsAverage": 5.0,
+    "numOfReviews": 22
+  },
+  {
+    "name": "Cắt Tỉa Lông Tạo Kiểu (Grooming)",
+    "slug": "cat-tia-long-tao-kieu",
+    "_categorySlug": "cat-tia-long",
+    "description": "Combo tắm sấy + cắt tỉa tạo kiểu gấu Teddy, phong cách Châu Á, bo tròn chân.",
+    "basePrice": 300000,
+    "priceVariations": [
+      { "condition": "Poodle/Phốc sóc (Dưới 5kg)", "price": 300000 },
+      { "condition": "Corgi/Golden (Dưới 15kg)", "price": 450000 }
+    ],
+    "duration": 120,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749814/5_foxmnd.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749812/5.2_p6fhqu.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749812/5.2_p6fhqu.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773888655/Gooming-3.jpg_fqctkf.jpg0",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773888655/Gooming-3.jpg_fqctkf.jpg"
+    ],
+    "ratingsAverage": 4.9,
+    "numOfReviews": 40
+  },
+  {
+    "name": "Khám Tổng Quát",
+    "slug": "kham-tong-quat",
+    "_categorySlug": "kham-tong-quat",
+    "description": "Kiểm tra lâm sàng sức khỏe toàn diện, đo nhịp tim, nhiệt độ, kiểm tra da lông.",
+    "basePrice": 100000,
+    "priceVariations": [],
+    "duration": 30,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749823/2.4_zsr8vb.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749818/2.1_i1lxqw.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773888884/151-vet-300x200-985_iftpre.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773888890/Ear-dog-scaled-1_qdlx3f.jpg"
+    ],
+    "ratingsAverage": 4.9,
+    "numOfReviews": 18
+  },
+  {
+    "name": "Tiêm Vaccine 7 Bệnh Cho Chó",
+    "slug": "tiem-vaccine-7-benh-cho-cho",
+    "_categorySlug": "tiem-phong",
+    "description": "Tiêm phòng 7 bệnh cơ bản (Care, Parvo, Viêm gan...). Đã bao gồm công khám trước tiêm.",
+    "basePrice": 250000,
+    "priceVariations": [],
+    "duration": 20,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749810/3_yqpe2m.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773888884/tiem2_dbu7fg.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773888883/tiem5_x6lfk2.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773888883/tiem4_iys3wf.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773888883/tiem6_j84l8q.jpg"
+    ],
+    "ratingsAverage": 5.0,
+    "numOfReviews": 50
+  },
+  {
+    "name": "Tiêm Phòng Dại (Rabies)",
+    "slug": "tiem-phong-dai",
+    "_categorySlug": "tiem-phong",
+    "description": "Tiêm vaccine dại định kỳ hằng năm cho chó và mèo trên 3 tháng tuổi.",
+    "basePrice": 80000,
+    "priceVariations": [],
+    "duration": 15,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773888890/loi-ich-cua-viec-kham-suc-khoe-tong-quat-cho-cho_ghdhi1.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773888883/tiem3_lktk92.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773888884/tiem1_mi476a.jpg"
+    ],
+    "ratingsAverage": 4.8,
+    "numOfReviews": 65
+  },
+  {
+    "name": "Lưu Chuồng & Điều Trị Tích Cực",
+    "slug": "luu-chuong-dieu-tri",
+    "_categorySlug": "dieu-tri",
+    "description": "Dịch vụ lưu chuồng chăm sóc 24/7, truyền dịch và thuốc cho thú cưng đang ốm.",
+    "basePrice": 200000,
+    "priceVariations": [
+      { "condition": "Gói cơ bản (Ăn uống + Thuốc nhẹ)", "price": 200000 },
+      {
+        "condition": "Gói tích cực (Truyền dịch + Care/Parvo)",
+        "price": 500000
+      }
+    ],
+    "duration": 1440,
+    "images": [
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749820/2.2_wwe0rk.jpg",
+      "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773749822/2.3_sx7285.jpg"
+    ],
+    "ratingsAverage": 4.7,
+    "numOfReviews": 14
+  }
+]
