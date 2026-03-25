@@ -8,9 +8,8 @@
     "gender": "male",
     "medicalHistory": "Tình trạng thể chất xuất sắc, cột sống khỏe mạnh, tiêm phòng đầy đủ các mũi cơ bản.",
     "forSale": true,
-    "price": 500000,
+    "price": 30000000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745881/3_gdo1nb.png"
-
   },
   {
     "name": "Penny",
@@ -21,7 +20,7 @@
     "gender": "female",
     "medicalHistory": "Hoàn toàn khỏe mạnh, không có dấu hiệu bệnh lý về khớp, năng động và vô cùng linh hoạt.",
     "forSale": true,
-    "price": 500000,
+    "price": 25500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745881/3_yu9vos.jpg"
   },
   {
@@ -33,7 +32,7 @@
     "gender": "male",
     "medicalHistory": "Sức khỏe ổn định, ăn uống cực kỳ tốt, hệ tiêu hóa làm việc trơn tru, đã xổ giun định kỳ.",
     "forSale": true,
-    "price": 500000,
+    "price": 19000000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745881/2_hyb2bi.png"
   },
   {
@@ -45,7 +44,7 @@
     "gender": "female",
     "medicalHistory": "Thể lực dồi dào, kiểm soát cân nặng tốt nên không bị béo phì, giảm thiểu áp lực lên chân ngắn.",
     "forSale": true,
-    "price": 500000,
+    "price": 19500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745882/4_sx2fuv.jpg"
   },
   {
@@ -57,7 +56,7 @@
     "gender": "male",
     "medicalHistory": "Rất lanh lợi, không mắc các bệnh di truyền, lông bóng mượt và không có vấn đề về nấm da.",
     "forSale": true,
-    "price": 500000,
+    "price": 25500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745884/5_net72x.jpg"
   },
   {
@@ -69,7 +68,7 @@
     "gender": "female",
     "medicalHistory": "Khung xương chắc khỏe, di chuyển nhanh nhẹn, mắt sáng và tai sạch sẽ không viêm nhiễm.",
     "forSale": true,
-    "price": 500000,
+    "price": 19000000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745885/6_uanq7k.jpg"
   },
   {
@@ -81,7 +80,7 @@
     "gender": "male",
     "medicalHistory": "Sức đề kháng cao, cực kỳ ít ốm vặt, hệ hô hấp và tim mạch hoạt động hoàn hảo.",
     "forSale": true,
-    "price": 500000,
+    "price": 19500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745885/7_k3epzj.jpg"
   },
   {
@@ -93,7 +92,7 @@
     "gender": "female",
     "medicalHistory": "Phát triển toàn diện, nhịp tim bình thường, hồ sơ thú y sạch sẽ không có tiền sử bệnh nền.",
     "forSale": true,
-    "price": 500000,
+    "price": 25500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745887/8_hj2m34.jpg"
   },
   {
@@ -105,7 +104,7 @@
     "gender": "male",
     "medicalHistory": "Thể trạng rất tốt, vóc dáng săn chắc, đã hoàn thành lịch tiêm vắc xin hàng năm đúng hạn.",
     "forSale": true,
-    "price": 500000,
+    "price": 20500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745888/10_ly9pcs.png"
   },
   {
@@ -117,7 +116,7 @@
     "gender": "female",
     "medicalHistory": "Sức khỏe hoàn hảo, lanh lợi, các chỉ số xét nghiệm máu và siêu âm đều nằm trong ngưỡng an toàn tuyệt đối.",
     "forSale": true,
-    "price": 500000,
+    "price": 15500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745888/9_bb3tnj.png"
   },
 
@@ -130,7 +129,7 @@
     "gender": "male",
     "medicalHistory": "Thể lực sung mãn, cơ bắp phát triển tốt, hoàn toàn không gặp vấn đề về loạn sản xương hông.",
     "forSale": true,
-    "price": 500000,
+    "price": 20500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745675/3_jina9m.png"
   },
   {
@@ -142,7 +141,7 @@
     "gender": "female",
     "medicalHistory": "Sức chịu đựng dẻo dai, bộ lông kép khỏe mạnh không mắc các bệnh viêm da, lịch tiêm phòng đầy đủ.",
     "forSale": true,
-    "price": 500000,
+    "price": 22500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745675/2_vbe82l.png"
   },
   {
@@ -154,7 +153,7 @@
     "gender": "male",
     "medicalHistory": "Tình trạng sức khỏe hoàn hảo, hô hấp cực kỳ tốt ngay cả khi vận động mạnh, răng hàm vô cùng chắc khỏe.",
     "forSale": true,
-    "price": 500000,
+    "price": 27500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745675/4_shatgd.png"
   },
   {
@@ -166,7 +165,7 @@
     "gender": "female",
     "medicalHistory": "Hệ miễn dịch tuyệt vời, ăn ngủ tốt, các chỉ số xét nghiệm máu và siêu âm định kỳ đều đạt chuẩn.",
     "forSale": true,
-    "price": 500000,
+    "price": 23500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745676/6_fd242m.png"
   },
   {
@@ -178,7 +177,7 @@
     "gender": "male",
     "medicalHistory": "Vóc dáng to lớn và vạm vỡ nhưng di chuyển rất linh hoạt, không mang mầm bệnh hay gen lặn xấu.",
     "forSale": true,
-    "price": 500000,
+    "price": 21500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745676/5_x3wbqi.png"
   },
   {
@@ -190,7 +189,7 @@
     "gender": "female",
     "medicalHistory": "Khung xương to và vững chắc, khớp gối ổn định, chưa từng ghi nhận bất kỳ dấu hiệu suy giảm thể chất nào.",
     "forSale": true,
-    "price": 500000,
+    "price": 19500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745676/7_pdv4kx.png"
   },
   {
@@ -202,7 +201,7 @@
     "gender": "male",
     "medicalHistory": "Sức khỏe tổng quát được bác sĩ thú y đánh giá điểm tối đa, hệ tiêu hóa hấp thụ dinh dưỡng cực kỳ hiệu quả.",
     "forSale": true,
-    "price": 500000,
+    "price": 17500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745679/8_mglgjq.png"
   },
   {
@@ -214,7 +213,7 @@
     "gender": "female",
     "medicalHistory": "Dồi dào sinh lực, mắt sáng trong không bị đục thủy tinh thể, luôn duy trì trạng thái tinh thần vui vẻ, năng động.",
     "forSale": true,
-    "price": 500000,
+    "price": 15500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745680/9_gopinf.png"
   },
   {
@@ -226,7 +225,7 @@
     "gender": "male",
     "medicalHistory": "Thể trạng rất tốt, hoàn toàn miễn nhiễm với các bệnh vặt nhờ chế độ dinh dưỡng và vận động hợp lý từ nhỏ.",
     "forSale": true,
-    "price": 500000,
+    "price": 21500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745680/10_pv0hna.png"
   },
   {
@@ -238,7 +237,7 @@
     "gender": "male",
     "medicalHistory": "Chức năng tim mạch hoạt động xuất sắc, sức đề kháng vô cùng mạnh mẽ, thích nghi hoàn hảo với môi trường sống.",
     "forSale": true,
-    "price": 500000,
+    "price": 31500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745681/1_vk8z02.png"
   },
 
@@ -251,7 +250,7 @@
     "gender": "male",
     "medicalHistory": "Thể lực vô cùng dồi dào, thính giác cực nhạy, không có bất kỳ bệnh lý nền nào.",
     "forSale": true,
-    "price": 500000,
+    "price": 11500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745429/6_dlp4tz.png"
   },
   {
@@ -263,7 +262,7 @@
     "gender": "female",
     "medicalHistory": "Hoàn toàn khỏe mạnh, hệ tiêu hóa làm việc hiệu quả, vóc dáng săn chắc đúng chuẩn Beagle.",
     "forSale": true,
-    "price": 500000,
+    "price": 9500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745429/2_qriaww.png"
   },
   {
@@ -275,7 +274,7 @@
     "gender": "male",
     "medicalHistory": "Sức khỏe xuất sắc, kiểm soát cân nặng tốt nên không mắc béo phì, các khớp xương rất linh hoạt.",
     "forSale": true,
-    "price": 500000,
+    "price": 12500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745429/3_vlouyw.png"
   },
   {
@@ -287,7 +286,7 @@
     "gender": "female",
     "medicalHistory": "Thể trạng tối ưu, khứu giác nhạy bén, đã tiêm phòng và tẩy giun đúng hạn đầy đủ.",
     "forSale": true,
-    "price": 500000,
+    "price": 13500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745429/6_dlp4tz.png"
   },
   {
@@ -299,7 +298,7 @@
     "gender": "male",
     "medicalHistory": "Rất hiếu động và khỏe mạnh, tai sạch sẽ và không có dấu hiệu viêm nhiễm - bệnh thường gặp ở giống chó này.",
     "forSale": true,
-    "price": 500000,
+    "price": 14500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745429/4_gnyssh.png"
   },
   {
@@ -311,7 +310,7 @@
     "gender": "female",
     "medicalHistory": "Lịch sử y tế sạch sẽ, nhịp tim và hô hấp đều đặn, luôn tò mò và tràn đầy năng lượng.",
     "forSale": true,
-    "price": 500000,
+    "price": 16500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745430/8_nc7yql.png"
   },
   {
@@ -323,7 +322,7 @@
     "gender": "male",
     "medicalHistory": "Sức đề kháng tuyệt vời, cực kỳ ít ốm vặt, ăn uống ngon miệng và hấp thụ tốt.",
     "forSale": true,
-    "price": 500000,
+    "price": 15500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745430/9_eg09hx.png"
   },
   {
@@ -335,7 +334,7 @@
     "gender": "female",
     "medicalHistory": "Phát triển thể chất toàn diện, mắt sáng tinh anh, kết quả xét nghiệm không mang gen bệnh di truyền.",
     "forSale": true,
-    "price": 500000,
+    "price": 11500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745430/7_mxexdn.png"
   },
   {
@@ -347,7 +346,7 @@
     "gender": "male",
     "medicalHistory": "Tình trạng cơ thể hoàn hảo, khả năng vận động bền bỉ không biết mệt mỏi, răng miệng trắng sáng.",
     "forSale": true,
-    "price": 500000,
+    "price": 11500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745430/10_vcifys.png"
   },
   {
@@ -359,7 +358,7 @@
     "gender": "female",
     "medicalHistory": "Khám tổng quát định kỳ luôn cho kết quả lý tưởng, hệ hô hấp hoạt động tốt ngay cả khi chạy nhảy cường độ cao.",
     "forSale": true,
-    "price": 500000,
+    "price": 19500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745431/1_q7ghf0.png"
   },
 
@@ -372,7 +371,7 @@
     "gender": "male",
     "medicalHistory": "Thể trạng tuyệt vời, hệ cơ xương khớp phát triển hoàn hảo, chạy nhảy vô cùng linh hoạt.",
     "forSale": true,
-    "price": 500000,
+    "price": 19500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745146/9_ryeicn.jpg"
   },
   {
@@ -384,7 +383,7 @@
     "gender": "female",
     "medicalHistory": "Sức khỏe tổng quát rất tốt, không mang gen bệnh di truyền, đã hoàn thành mọi mũi tiêm chủng.",
     "forSale": true,
-    "price": 500000,
+    "price": 25500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745146/8_mwqkq2.jpg"
   },
   {
@@ -396,7 +395,7 @@
     "gender": "male",
     "medicalHistory": "Luôn vui vẻ và dồi dào năng lượng, nhịp tim ổn định, thị lực và thính giác cực kỳ nhạy bén.",
     "forSale": true,
-    "price": 500000,
+    "price": 20500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745146/1_qv8rmc.jpg"
   },
   {
@@ -408,7 +407,7 @@
     "gender": "female",
     "medicalHistory": "Rất khỏe mạnh, bộ lông vàng óng mượt mà không mắc bệnh da liễu, hệ tiêu hóa hoạt động êm ái.",
     "forSale": true,
-    "price": 500000,
+    "price": 27500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745146/10_v44tji.jpg"
   },
   {
@@ -420,7 +419,7 @@
     "gender": "male",
     "medicalHistory": "Khám sức khỏe định kỳ luôn đạt chỉ số tối ưu, sức đề kháng vô cùng mạnh mẽ, chưa từng ốm vặt.",
     "forSale": true,
-    "price": 500000,
+    "price": 22500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745145/5_zcfpgv.jpg"
   },
   {
@@ -432,7 +431,7 @@
     "gender": "female",
     "medicalHistory": "Tình trạng thể chất đạt chuẩn giống, không có bất kỳ tiền sử bệnh lý nào, lanh lợi và hiếu động.",
     "forSale": true,
-    "price": 500000,
+    "price": 30500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745145/7_afxie9.jpg"
   },
   {
@@ -444,7 +443,7 @@
     "gender": "male",
     "medicalHistory": "Hoàn toàn khỏe mạnh, răng miệng sạch sẽ không có mảng bám, khung xương chắc chắn và phản xạ nhanh.",
     "forSale": true,
-    "price": 500000,
+    "price": 23500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745145/6_m8gdrw.jpg"
   },
   {
@@ -456,7 +455,7 @@
     "gender": "female",
     "medicalHistory": "Phát triển toàn diện, ăn uống cực kỳ ngon miệng, các chức năng gan và thận hoạt động hoàn hảo.",
     "forSale": true,
-    "price": 500000,
+    "price": 21500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745145/4_ft99h5.jpg"
   },
   {
@@ -468,7 +467,7 @@
     "gender": "male",
     "medicalHistory": "Không ghi nhận bất kỳ dấu hiệu bệnh lý nào, thể lực sung mãn, hệ hô hấp vô cùng khỏe mạnh.",
     "forSale": true,
-    "price": 500000,
+    "price": 18500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745145/2_s7asxt.jpg"
   },
   {
@@ -480,7 +479,7 @@
     "gender": "female",
     "medicalHistory": "Cực kỳ dẻo dai và tràn đầy sinh lực, kết quả xét nghiệm tổng quát gần nhất hoàn toàn bình thường.",
     "forSale": true,
-    "price": 500000,
+    "price": 17500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773745145/3_vah1g9.jpg"
   },
 
@@ -493,7 +492,7 @@
     "gender": "male",
     "medicalHistory": "Cần chải lông thường xuyên để tránh viêm da.",
     "forSale": true,
-    "price": 500000,
+    "price": 15500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744684/9_fg1rgd.png"
   },
   {
@@ -505,7 +504,7 @@
     "gender": "female",
     "medicalHistory": "Sức khỏe bình thường, không có dấu hiệu bệnh cột sống.",
     "forSale": true,
-    "price": 500000,
+    "price": 11500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744685/10_gmujqe.png"
   },
 
@@ -518,7 +517,7 @@
     "gender": "male",
     "medicalHistory": "Sức khỏe xuất sắc, ăn ngoan ngủ tốt, đã tiêm phòng dại và giảm bạch cầu đầy đủ.",
     "forSale": true,
-    "price": 500000,
+    "price": 11500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744684/1_pktuez.jpg"
   },
   {
@@ -530,7 +529,7 @@
     "gender": "male",
     "medicalHistory": "Thể trạng to lớn, vạm vỡ, hệ tiêu hóa vô cùng khỏe mạnh, không hề kén ăn.",
     "forSale": true,
-    "price": 500000,
+    "price": 13500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744684/8_ikyekd.png"
   },
   {
@@ -542,7 +541,7 @@
     "gender": "female",
     "medicalHistory": "Tình trạng thể chất hoàn hảo, mắt sáng, hô hấp tốt và không có dấu hiệu chảy nước mắt sinh lý.",
     "forSale": true,
-    "price": 500000,
+    "price": 22500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744683/6_fng2iw.png"
   },
   {
@@ -554,7 +553,7 @@
     "gender": "male",
     "medicalHistory": "Da dẻ hồng hào, sạch sẽ, không mắc bất kỳ bệnh lý nào về da liễu hay tim mạch.",
     "forSale": true,
-    "price": 500000,
+    "price": 27500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744683/5_tn5m1q.png"
   },
   {
@@ -566,7 +565,7 @@
     "gender": "female",
     "medicalHistory": "Rất lanh lợi, phản xạ tuyệt vời, hồ sơ y tế từ nhỏ đến lớn hoàn toàn sạch sẽ.",
     "forSale": true,
-    "price": 500000,
+    "price": 6500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744683/7_nrknni.png"
   },
   {
@@ -578,7 +577,7 @@
     "gender": "male",
     "medicalHistory": "Năng lượng dồi dào, cơ bắp phát triển tốt, chưa từng phải đi thú y ngoại trừ lịch xổ giun định kỳ.",
     "forSale": true,
-    "price": 500000,
+    "price": 7500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744683/2_nvjquj.jpg"
   },
   {
@@ -590,7 +589,7 @@
     "gender": "female",
     "medicalHistory": "Cực kỳ khỏe mạnh, chất lông mềm mượt, không gặp bất cứ vấn đề nào về tắc nghẽn búi lông.",
     "forSale": true,
-    "price": 500000,
+    "price": 8500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744683/3_t6t9kl.jpg"
   },
   {
@@ -602,7 +601,7 @@
     "gender": "male",
     "medicalHistory": "Khung xương vững chắc, di chuyển linh hoạt, không mang bệnh lý di truyền về cột sống.",
     "forSale": true,
-    "price": 500000,
+    "price": 6500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744683/4_u6f4bq.png"
   },
 
@@ -615,7 +614,7 @@
     "gender": "female",
     "medicalHistory": "Sức khỏe hoàn toàn bình thường, đã tiêm phòng đầy đủ các mũi cơ bản.",
     "forSale": true,
-    "price": 500000,
+    "price": 11500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744511/6_psftj9.jpg"
   },
   {
@@ -627,7 +626,7 @@
     "gender": "male",
     "medicalHistory": "Thể trạng rất tốt, năng động và không có tiền sử bệnh lý.",
     "forSale": true,
-    "price": 500000,
+    "price": 11500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744511/7_qv6clg.png"
   },
   {
@@ -639,7 +638,7 @@
     "gender": "female",
     "medicalHistory": "Phát triển khỏe mạnh, ăn ngủ tốt, chưa từng mắc bệnh từ khi sinh ra.",
     "forSale": true,
-    "price": 500000,
+    "price": 11500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744512/5_hgk10z.jpg"
   },
   {
@@ -651,7 +650,7 @@
     "gender": "male",
     "medicalHistory": "Kiểm tra sức khỏe định kỳ luôn đạt kết quả xuất sắc, hệ miễn dịch tốt.",
     "forSale": true,
-    "price": 500000,
+    "price": 11500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744512/3_qqyl2y.jpg"
   },
   {
@@ -663,7 +662,7 @@
     "gender": "female",
     "medicalHistory": "Không ghi nhận bất kỳ vấn đề y tế nào, cơ thể dẻo dai và dồi dào năng lượng.",
     "forSale": true,
-    "price": 500000,
+    "price": 11500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744512/4_jxvkyh.jpg"
   },
   {
@@ -675,7 +674,7 @@
     "gender": "male",
     "medicalHistory": "Sức khỏe ổn định, lông bóng mượt, tình trạng thể chất được đánh giá là hoàn hảo.",
     "forSale": true,
-    "price": 500000,
+    "price": 21500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744511/2_lulong.jpg"
   },
   {
@@ -687,7 +686,7 @@
     "gender": "female",
     "medicalHistory": "Rất khỏe mạnh, nhịp tim bình thường và hệ tiêu hóa hoạt động vô cùng trơn tru.",
     "forSale": true,
-    "price": 500000,
+    "price": 21500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744511/2_lulong.jpg"
   },
   {
@@ -699,7 +698,7 @@
     "gender": "male",
     "medicalHistory": "Hoàn toàn khỏe mạnh, hồ sơ thú y sạch sẽ, chỉ cần tẩy giun sán định kỳ.",
     "forSale": true,
-    "price": 500000,
+    "price": 26500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744511/8_lkujdy.png"
   },
   {
@@ -711,7 +710,7 @@
     "gender": "female",
     "medicalHistory": "Trạng thái sức khỏe tối ưu, lanh lợi, phản xạ tốt và không mang mầm bệnh.",
     "forSale": true,
-    "price": 500000,
+    "price": 30500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744511/10_jbbjtv.png"
   },
   {
@@ -723,7 +722,7 @@
     "gender": "male",
     "medicalHistory": "Sức đề kháng cao, cực kỳ ít khi ốm vặt, các chỉ số xét nghiệm đều nằm trong mức lý tưởng.",
     "forSale": true,
-    "price": 500000,
+    "price": 27500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773744511/9_rrkbxo.png"
   },
 
@@ -736,7 +735,7 @@
     "gender": "male",
     "medicalHistory": "Khỏe mạnh, năng động. Đã tiêm phòng dại.",
     "forSale": true,
-    "price": 500000,
+    "price": 30500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773735846/4_xumrkl.png"
   },
   {
@@ -748,7 +747,7 @@
     "gender": "male",
     "medicalHistory": "Khỏe mạnh, năng động. Đã tiêm phòng dại.",
     "forSale": true,
-    "price": 500000,
+    "price": 23500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773735840/1_kdaqar.png"
   },
   {
@@ -760,7 +759,7 @@
     "gender": "male",
     "medicalHistory": "Khỏe mạnh, năng động. Đã tiêm phòng dại.",
     "forSale": true,
-    "price": 500000,
+    "price": 21500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773735840/2_owenbl.png"
   },
   {
@@ -772,7 +771,7 @@
     "gender": "female",
     "medicalHistory": "Khỏe mạnh, năng động. Đã tiêm phòng dại.",
     "forSale": true,
-    "price": 500000,
+    "price": 30500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773735840/9_p3fv9y.png"
   },
   {
@@ -784,7 +783,7 @@
     "gender": "male",
     "medicalHistory": "Khỏe mạnh, năng động. Đã tiêm phòng dại.",
     "forSale": true,
-    "price": 500000,
+    "price": 17500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773735839/8_bf2q73.png"
   },
   {
@@ -796,7 +795,7 @@
     "gender": "male",
     "medicalHistory": "Khỏe mạnh, năng động. Đã tiêm phòng dại.",
     "forSale": true,
-    "price": 500000,
+    "price": 15500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773735839/6_ef1qwd.png"
   },
   {
@@ -808,7 +807,7 @@
     "gender": "male",
     "medicalHistory": "Khỏe mạnh, năng động. Đã tiêm phòng dại.",
     "forSale": true,
-    "price": 500000,
+    "price": 11500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773735839/3_xrbdex.png"
   },
   {
@@ -820,8 +819,8 @@
     "gender": "male",
     "medicalHistory": "Khỏe mạnh, năng động. Đã tiêm phòng dại.",
     "forSale": true,
-    "price": 500000,
-    "avatar": ""
+    "price": 11500000,
+    "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773735839/6_ef1qwd.png"
   },
   {
     "name": "Pub béo",
@@ -832,7 +831,7 @@
     "gender": "male",
     "medicalHistory": "Khỏe mạnh, năng động. Đã tiêm phòng dại.",
     "forSale": true,
-    "price": 500000,
+    "price": 13500000,
     "avatar": "https://res.cloudinary.com/dg0qiq4zd/image/upload/v1773735840/2_owenbl.png"
   }
 ]

@@ -17,8 +17,9 @@ import Checkout from "./pages/Checkout/Checkout";
 import Login from "./pages/Auth/Login";
 import Register from "./pages/Auth/Register";
 import Profile from "./pages/Profile/Profile";
-import Favorites from './pages/Favorites/Favorites';
-import Blog from './pages/Blog/Blog';
+import Favorites from "./pages/Favorites/Favorites";
+import Blog from "./pages/Blog/Blog";
+import BlogDetail from "./pages/Blog/BlogDetail";
 // Import Pages Admin
 import Dashboard from "./pages/Admin/Dashboard";
 import AdminProducts from "./pages/Admin/AdminProducts";
@@ -31,11 +32,12 @@ import AdminServices from "./pages/Admin/AdminServices";
 import AdminAppointments from "./pages/Admin/AdminAppointments";
 import AdminCategories from "./pages/Admin/AdminCategories";
 import MyOrders from "./pages/myorder/MyOrders";
-
+import VnpayReturn from "./pages/Checkout/VnpayReturn";
 export default function App() {
   return (
     <Router>
-      <ScrollToTop /> {/* Component này sẽ tự động cuộn lên đầu khi chuyển trang */}
+      <ScrollToTop />{" "}
+      {/* Component này sẽ tự động cuộn lên đầu khi chuyển trang */}
       <Routes>
         {/* ========================================================
             NHÁNH 1: GIAO DIỆN KHÁCH HÀNG (CÓ NAVBAR, FOOTER, CHATBOT)
@@ -53,11 +55,13 @@ export default function App() {
                   <Route path="/orders" element={<MyOrders />} />
                   <Route path="/cart" element={<Cart />} />
                   <Route path="/checkout" element={<Checkout />} />
+                  <Route path="/vnpay-return" element={<VnpayReturn />} />
                   <Route path="/login" element={<Login />} />
                   <Route path="/register" element={<Register />} />
                   <Route path="/profile" element={<Profile />} />
                   <Route path="/favorites" element={<Favorites />} />
                   <Route path="/blog" element={<Blog />} />
+                  <Route path="/blog/:id" element={<BlogDetail />} />
                 </Routes>
               </main>
               <Chatbot /> {/* Bổ sung Chatbot vào góc màn hình */}
@@ -76,11 +80,10 @@ export default function App() {
           <Route path="users" element={<AdminUsers />} />
           <Route path="blogs" element={<AdminBlogs />} />
           <Route path="services" element={<AdminServices />} />
-          
+
           {/* --- THÊM 2 ROUTE NÀY ĐỂ FIX LỖI HIỂN THỊ --- */}
           <Route path="appointments" element={<AdminAppointments />} />
           <Route path="categories" element={<AdminCategories />} />
-
         </Route>
       </Routes>
     </Router>

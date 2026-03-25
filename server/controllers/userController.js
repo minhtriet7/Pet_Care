@@ -61,12 +61,10 @@ const loginUser = async (req, res) => {
         },
       });
     } else {
-      res
-        .status(401)
-        .json({
-          success: false,
-          message: "Email hoặc mật khẩu không chính xác",
-        });
+      res.status(401).json({
+        success: false,
+        message: "Email hoặc mật khẩu không chính xác",
+      });
     }
   } catch (error) {
     res
@@ -83,13 +81,11 @@ const getUserProfile = async (req, res) => {
         .status(404)
         .json({ success: false, message: "Không tìm thấy người dùng" });
 
-    res
-      .status(200)
-      .json({
-        success: true,
-        message: "Lấy thông tin profile thành công",
-        data: user,
-      });
+    res.status(200).json({
+      success: true,
+      message: "Lấy thông tin profile thành công",
+      data: user,
+    });
   } catch (error) {
     res
       .status(500)
@@ -154,20 +150,81 @@ const toggleWishlist = async (req, res) => {
       data: { wishlist: user.wishlist },
     });
   } catch (error) {
-    res
-      .status(500)
-      .json({
-        success: false,
-        message: "Lỗi xử lý yêu thích",
-        error: error.message,
-      });
+    res.status(500).json({
+      success: false,
+      message: "Lỗi xử lý yêu thích",
+      error: error.message,
+    });
   }
 };
 
+// ---> HÀM MỚI BỔ SUNG: Lấy toàn bộ danh sách User cho Admin
+const getUsers = async (req, res) => {
+  try {
+    // Tìm tất cả user và loại bỏ field password để bảo mật
+    const users = await User.find({}).select("-password");
+    res.status(200).json({ success: true, data: users });
+  } catch (error) {
+    res
+      .status(500)
+      .json({ success: false, message: "Lỗi server", error: error.message });
+  }
+};
+// Ví dụ hàm cập nhật ở Backend của bạn
+exports.updateUserProfile = async (req, res) => {
+  try {
+    const user = await User.findById(req.user._id);
+
+    if (user) {
+      user.name = req.body.name || user.name;
+      user.phone = req.body.phone || user.phone;
+      user.address = req.body.address || user.address;
+      
+      // BẮT BUỘC PHẢI CÓ DÒNG NÀY ĐỂ LƯU ẢNH VÀO DATABASE
+      user.avatar = req.body.avatar || user.avatar;
+
+      // Nếu có đổi mật khẩu thì xử lý ở đây...
+
+      const updatedUser = await user.save();
+
+      res.json({
+        success: true,
+        data: {
+          _id: updatedUser._id,
+          name: updatedUser.name,
+          email: updatedUser.email,
+          phone: updatedUser.phone,
+          address: updatedUser.address,
+          avatar: updatedUser.avatar, // Nhớ trả về avatar mới
+          role: updatedUser.role,
+        }
+      });
+    } else {
+      res.status(404).json({ message: "Không tìm thấy người dùng" });
+    }
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+const deleteUser = async (req, res) => {
+  try {
+    const user = await User.findById(req.params.id);
+    if (!user) return res.status(404).json({ success: false, message: "Không tìm thấy User" });
+    if (user.role === 'admin') return res.status(400).json({ success: false, message: "Không thể xóa Admin!" });
+    
+    await user.deleteOne();
+    res.status(200).json({ success: true, message: "Xóa khách hàng thành công" });
+  } catch (error) {
+    res.status(500).json({ success: false, message: "Lỗi server", error: error.message });
+  }
+};
+// Nhớ export deleteUser ra ở module.exports nhé!
 module.exports = {
   registerUser,
   loginUser,
   getUserProfile,
   updateUserProfile,
   toggleWishlist,
+  getUsers,
+  deleteUser, // <-- Nhớ phải có dòng này
 };

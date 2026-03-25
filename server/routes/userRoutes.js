@@ -1,23 +1,33 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
 
-// Bổ sung thêm toggleWishlist vào dòng này:
-const { registerUser, loginUser, getUserProfile, toggleWishlist,updateUserProfile } = require('../controllers/userController');
-const { protect } = require('../middleware/authMiddleware');
+const {
+  registerUser,
+  loginUser,
+  getUserProfile,
+  toggleWishlist,
+  updateUserProfile,
+  getUsers, 
+  deleteUser, // <-- Import hàm mới
+} = require("../controllers/userController");
+
+// Bổ sung import thêm 'admin' middleware
+const { protect, admin } = require("../middleware/authMiddleware");
 
 // Route Đăng ký và Đăng nhập (Public)
-router.post('/register', registerUser);
-router.post('/login', loginUser);
+router.post("/register", registerUser);
+router.post("/login", loginUser);
 
-// Thay đổi dòng lấy profile thành:
-router.route('/profile')
+// Route Profile của cá nhân User (Cần đăng nhập)
+router
+  .route("/profile")
   .get(protect, getUserProfile)
-  .put(protect, updateUserProfile); // Thêm PUT để update
-
-// Route Lấy thông tin cá nhân (Private - đi qua middleware protect)
-router.get('/profile', protect, getUserProfile);
-
+  .put(protect, updateUserProfile);
+router.route('/:id').delete(protect, admin, deleteUser);
 // Route thêm/xóa yêu thích (Private)
-router.post('/wishlist', protect, toggleWishlist);
+router.post("/wishlist", protect, toggleWishlist);
+
+// ---> ROUTE MỚI BỔ SUNG: Lấy tất cả user (Chỉ Admin mới được phép gọi)
+router.route("/").get(protect, admin, getUsers);
 
 module.exports = router;

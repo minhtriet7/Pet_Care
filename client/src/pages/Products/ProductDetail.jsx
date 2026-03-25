@@ -94,8 +94,14 @@ export default function ProductDetail() {
 
         // NẾU LÀ DỊCH VỤ VÀ ĐÃ ĐĂNG NHẬP -> Lấy danh sách thú cưng của khách
         if (type === "dich-vu" && userInfo) {
-          const petsRes = await axiosClient.get("/pets/my-pets");
-          if (petsRes.success) setMyPets(petsRes.data);
+          try {
+            const petsRes = await axiosClient.get("/pets/my-pets");
+            // Xử lý thông minh: Dù Backend trả về mảng trực tiếp hay bọc trong data thì đều bắt được hết!
+            const petList = Array.isArray(petsRes) ? petsRes : (petsRes.data || []);
+            setMyPets(petList);
+          } catch (err) {
+            console.error("Lỗi khi tải danh sách thú cưng:", err);
+          }
         }
       } catch (error) {
         console.error("Lỗi gọi API Detail:", error);
@@ -105,6 +111,7 @@ export default function ProductDetail() {
     };
 
     fetchData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id, type]);
 
   const formatPrice = (price) =>

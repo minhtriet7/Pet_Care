@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { ArrowRight, Calendar, User } from "lucide-react";
+import { Link } from "react-router-dom";
+import axiosClient from "../../utils/axiosClient"; // Import axios để gọi API
 
 export default function Blog() {
+  // Dữ liệu blog từ Database
+  const [dbBlogs, setDbBlogs] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  // 1. DỮ LIỆU GÁN CỨNG (Giữ nguyên của bạn)
   const NEWS = [
     {
       id: 1,
@@ -34,6 +41,45 @@ export default function Blog() {
     },
   ];
 
+  // 2. LẤY DỮ LIỆU TỪ DATABASE
+  // 2. LẤY DỮ LIỆU TỪ DATABASE
+  useEffect(() => {
+    const fetchBlogs = async () => {
+      try {
+        const res = await axiosClient.get("/blogs");
+        
+        // CÁCH FIX: Bắt trọn mọi định dạng dữ liệu (dù là Array hay Object)
+        let blogList = [];
+        if (Array.isArray(res)) {
+          blogList = res;
+        } else if (res.data && Array.isArray(res.data)) {
+          blogList = res.data;
+        } else if (res.data?.data && Array.isArray(res.data.data)) {
+          blogList = res.data.data;
+        }
+
+        console.log("👉 Dữ liệu lấy từ Backend:", blogList); // In ra để kiểm tra
+
+        // Lọc bài viết đã được Đăng
+        const publishedBlogs = blogList.filter(blog => blog.status === 'published');
+        setDbBlogs(publishedBlogs);
+
+      } catch (error) {
+        console.error("Lỗi khi tải blog từ DB:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchBlogs();
+  }, []);
+
+  // Hàm xử lý link ảnh cho blog từ Database
+  const getImageUrl = (path) => {
+    if (!path) return "https://via.placeholder.com/400x250?text=PetCare+Blog";
+    if (path.startsWith("http")) return path;
+    return `http://localhost:5000${path}`;
+  };
+
   return (
     <div className="bg-[#FFF9F5] min-h-screen py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -47,37 +93,84 @@ export default function Blog() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-          {NEWS.map((news) => (
-            /* ĐỔI TỪ <Link> THÀNH <a> ĐỂ MỞ TAB MỚI */
-            <a
-              href={news.url}
-              target="_blank"
-              rel="noreferrer"
-              key={news.id}
-              className="bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow cursor-pointer group"
-            >
-              <div className="overflow-hidden h-48">
-                <img
-                  src={news.img}
-                  alt={news.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-5">
-                <h3 className="font-bold text-gray-900 text-lg mb-2 line-clamp-2 group-hover:text-pink-500 transition-colors">
-                  {news.title}
-                </h3>
-                <p className="text-sm text-gray-600 line-clamp-2 mb-4">
-                  {news.desc}
-                </p>
-                <span className="text-pink-500 font-bold text-sm flex items-center gap-1 group-hover:underline">
-                  Đọc thêm <ArrowRight size={14} />
-                </span>
-              </div>
-            </a>
-          ))}
-        </div>
+        {loading ? (
+          <div className="flex justify-center items-center py-20">
+            <div className="w-10 h-10 border-4 border-pink-200 border-t-pink-500 rounded-full animate-spin"></div>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+            {/* RENDER BÀI VIẾT TỪ DATABASE TRƯỚC (Dùng Link để chuyển trang nội bộ) */}
+            {dbBlogs.map((blog) => (
+              <Link
+                to={`/blog/${blog._id}`}
+                key={blog._id}
+                className="bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow cursor-pointer group flex flex-col"
+              >
+                <div className="overflow-hidden h-48 relative">
+                  <img
+                    src={getImageUrl(blog.image)}
+                    alt={blog.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-lg text-xs font-bold text-pink-600">
+                    {blog.category}
+                  </div>
+                </div>
+                <div className="p-5 flex flex-col flex-grow">
+                  <div className="flex items-center gap-4 text-xs text-gray-400 mb-3">
+                    <span className="flex items-center gap-1">
+                      <Calendar size={14} />{" "}
+                      {new Date(blog.createdAt).toLocaleDateString("vi-VN")}
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <User size={14} /> {blog.author}
+                    </span>
+                  </div>
+                  <h3 className="font-bold text-gray-900 text-lg mb-2 line-clamp-2 group-hover:text-pink-500 transition-colors">
+                    {blog.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 line-clamp-2 mb-4 flex-grow">
+                    {/* Lấy 1 đoạn ngắn nội dung làm mô tả */}
+                    {blog.content.substring(0, 100)}...
+                  </p>
+                  <span className="text-pink-500 font-bold text-sm flex items-center gap-1 group-hover:underline mt-auto">
+                    Đọc thêm <ArrowRight size={14} />
+                  </span>
+                </div>
+              </Link>
+            ))}
+
+            {/* RENDER BÀI VIẾT CŨ CỦA BẠN (Dùng thẻ a để mở tab mới) */}
+            {NEWS.map((news) => (
+              <a
+                href={news.url}
+                target="_blank"
+                rel="noreferrer"
+                key={`old-${news.id}`}
+                className="bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow cursor-pointer group flex flex-col"
+              >
+                <div className="overflow-hidden h-48">
+                  <img
+                    src={news.img}
+                    alt={news.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-5 flex flex-col flex-grow">
+                  <h3 className="font-bold text-gray-900 text-lg mb-2 line-clamp-2 group-hover:text-pink-500 transition-colors mt-2">
+                    {news.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 line-clamp-2 mb-4 flex-grow">
+                    {news.desc}
+                  </p>
+                  <span className="text-pink-500 font-bold text-sm flex items-center gap-1 group-hover:underline mt-auto">
+                    Đọc bài gốc <ArrowRight size={14} />
+                  </span>
+                </div>
+              </a>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

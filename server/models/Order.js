@@ -13,7 +13,7 @@ const orderSchema = new mongoose.Schema({
     city: { type: String, required: true },
     phone: { type: String, required: true }
   },
-  paymentMethod: { type: String, enum: ['COD', 'VNPay', 'Momo'], required: true },
+  paymentMethod: { type: String, enum: ['COD', 'VNPAY', 'Momo'], required: true },
   paymentStatus: { type: String, enum: ['pending', 'paid', 'failed'], default: 'pending' },
   itemsPrice: { type: Number, required: true },
   shippingPrice: { type: Number, required: true, default: 0 },

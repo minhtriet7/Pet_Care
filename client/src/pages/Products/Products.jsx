@@ -8,16 +8,18 @@ import Pagination from "../../components/common/Pagination";
 export default function Products() {
   const [searchParams] = useSearchParams();
   const categoryFromUrl = searchParams.get("category") || "all";
+  const keyword = searchParams.get("keyword")?.toLowerCase().trim() || "";
 
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [activeCategory, setActiveCategory] = useState(categoryFromUrl);
 
-  // --- STATE PHÂN TRANG ---
+  const [sortOrder, setSortOrder] = useState("newest");
+  const [priceRange, setPriceRange] = useState("all");
+
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 8;
 
-  // --- STATE YÊU THÍCH ---
   const [favorites, setFavorites] = useState([]);
 
   useEffect(() => {
@@ -25,15 +27,14 @@ export default function Products() {
     setCurrentPage(1);
   }, [searchParams]);
 
-  // Đồng bộ danh sách Yêu thích từ LocalStorage
   useEffect(() => {
     const loadFavs = () => {
-      const favs = JSON.parse(localStorage.getItem('petcare_favorites')) || [];
+      const favs = JSON.parse(localStorage.getItem("petcare_favorites")) || [];
       setFavorites(favs);
     };
     loadFavs();
-    window.addEventListener('favoritesUpdated', loadFavs);
-    return () => window.removeEventListener('favoritesUpdated', loadFavs);
+    window.addEventListener("favoritesUpdated", loadFavs);
+    return () => window.removeEventListener("favoritesUpdated", loadFavs);
   }, []);
 
   useEffect(() => {
@@ -42,7 +43,6 @@ export default function Products() {
         setLoading(true);
         let allItems = [];
 
-        // 1. LẤY DỮ LIỆU SẢN PHẨM
         const resProducts = await axiosClient.get("/products");
         if (resProducts.success) {
           const mappedProducts = resProducts.data.map((p) => ({
@@ -52,7 +52,6 @@ export default function Products() {
           allItems = [...allItems, ...mappedProducts];
         }
 
-        // 2. LẤY DỮ LIỆU DỊCH VỤ
         try {
           const resServices = await axiosClient.get("/services");
           if (resServices.success) {
@@ -60,15 +59,17 @@ export default function Products() {
               ...s,
               itemType: "dich-vu",
               price: s.basePrice,
-              category: s.category || { name: "Dịch Vụ Spa/Khám", slug: "dich-vu" },
+              category: s.category || {
+                name: "Dịch Vụ Spa/Khám",
+                slug: "dich-vu",
+              },
             }));
             allItems = [...allItems, ...mappedServices];
           }
         } catch (error) {
-          console.log("Không có API dịch vụ", error);
+          console.error("Lỗi khi tải dịch vụ:", error);
         }
 
-        // 3. LẤY DỮ LIỆU THÚ CƯNG (Đang bán)
         try {
           const resPets = await axiosClient.get("/pets/forsale");
           if (resPets.success && Array.isArray(resPets.data)) {
@@ -76,12 +77,14 @@ export default function Products() {
               ...p,
               itemType: "thu-cung",
               category: { name: "Chó Mèo Cảnh", slug: "thu-cung" },
-              images: p.avatar ? [p.avatar] : ["https://via.placeholder.com/200"],
+              images: p.avatar
+                ? [p.avatar]
+                : ["https://via.placeholder.com/200"],
             }));
             allItems = [...allItems, ...mappedPets];
           }
         } catch (error) {
-          console.log("Không có API thú cưng", error);
+          console.error("Lỗi khi tải thú cưng:", error);
         }
 
         setProducts(allItems);
@@ -91,30 +94,25 @@ export default function Products() {
         setLoading(false);
       }
     };
-
     fetchAllData();
   }, []);
 
-  // --- XỬ LÝ YÊU THÍCH ---
   const handleToggleFavorite = (e, item) => {
     e.preventDefault();
     e.stopPropagation();
-    
-    let currentFavs = JSON.parse(localStorage.getItem('petcare_favorites')) || [];
-    const isExist = currentFavs.find(fav => fav._id === item._id);
-
+    let currentFavs =
+      JSON.parse(localStorage.getItem("petcare_favorites")) || [];
+    const isExist = currentFavs.find((fav) => fav._id === item._id);
     if (isExist) {
-      currentFavs = currentFavs.filter(fav => fav._id !== item._id); // Bỏ yêu thích
+      currentFavs = currentFavs.filter((fav) => fav._id !== item._id);
     } else {
-      currentFavs.push(item); // Thêm yêu thích
+      currentFavs.push(item);
     }
-    
-    localStorage.setItem('petcare_favorites', JSON.stringify(currentFavs));
+    localStorage.setItem("petcare_favorites", JSON.stringify(currentFavs));
     setFavorites(currentFavs);
-    window.dispatchEvent(new Event('favoritesUpdated')); // Kích hoạt sự kiện cho Navbar cập nhật
+    window.dispatchEvent(new Event("favoritesUpdated"));
   };
 
-  // --- XỬ LÝ THÊM VÀO GIỎ HÀNG ---
   const handleAddToCart = async (e, product) => {
     e.preventDefault();
     const userInfo = JSON.parse(localStorage.getItem("userInfo"));
@@ -122,7 +120,11 @@ export default function Products() {
     if (!userInfo || !userInfo.token) {
       const cart = JSON.parse(localStorage.getItem("petcare_cart")) || [];
       const existingItem = cart.find((item) => item._id === product._id);
-      const productImage = (product.images && product.images[0]) || product.avatar || product.imageUrl || "https://via.placeholder.com/200";
+      const productImage =
+        (product.images && product.images[0]) ||
+        product.avatar ||
+        product.imageUrl ||
+        "https://via.placeholder.com/200";
 
       if (existingItem) {
         if (product.stock && existingItem.quantity >= product.stock) {
@@ -141,45 +143,104 @@ export default function Products() {
           productId: product._id,
           quantity: 1,
         });
-        if (res.success || res.data?.success) {
+        if (res.success || res.data?.success)
           alert(`Đã thêm ${product.name} vào giỏ hàng hệ thống!`);
-        }
       } catch (error) {
-        console.error("Lỗi thêm giỏ hàng API:", error);
         alert(error.response?.data?.message || "Không thể thêm vào giỏ hàng");
       }
     }
     window.dispatchEvent(new Event("cartUpdated"));
   };
 
-  // --- BỘ LỌC TÌM KIẾM THEO DANH MỤC ---
-  const activeCategoryObj = PRODUCT_CATEGORIES.find((c) => c.slug === activeCategory);
-  const activeCategoryName = activeCategoryObj?.name || "";
+  // =================================================================
+  // LOGIC LỌC VÀ TÌM KIẾM ĐÃ ĐƯỢC CHUẨN HÓA
+  // =================================================================
+  const activeCategoryObj = PRODUCT_CATEGORIES.find(
+    (c) => c.slug === activeCategory,
+  );
+  const activeCategoryName =
+    activeCategoryObj?.name?.toLowerCase().trim() || "";
 
-  const filteredProducts = activeCategory === "all"
-      ? products
-      : products.filter((p) => {
-          if (activeCategory === "dich-vu" && p.itemType === "dich-vu") return true;
-          if (activeCategory === "thu-cung" && p.itemType === "thu-cung") return true;
+  let filteredProducts = products.filter((p) => {
+    // 1. Quét tìm kiếm (Tên, mô tả VÀ Danh mục)
+    // 1. Quét tìm kiếm (Tên, mô tả, Danh mục VÀ GIỐNG LOÀI)
+    if (keyword) {
+      const productName = p.name?.toLowerCase() || "";
+      const productDesc = p.description?.toLowerCase() || "";
+      const catName = p.category?.name?.toLowerCase() || ""; 
+      const petBreed = p.breed?.toLowerCase() || ""; // THÊM DÒNG NÀY
 
-          const catNameDB = p.category?.name?.toLowerCase().trim() || "";
-          const catNameLocal = activeCategoryName.toLowerCase().trim();
+      // THÊM Điều kiện quét petBreed vào đây
+      if (!productName.includes(keyword) && 
+          !productDesc.includes(keyword) && 
+          !catName.includes(keyword) &&
+          !petBreed.includes(keyword)) {
+        return false; 
+      }
+    }
 
-          return (
-            catNameDB === catNameLocal ||
-            catNameDB.includes(catNameLocal) ||
-            catNameLocal.includes(catNameDB) ||
-            p.category?.slug === activeCategory
-          );
-        });
+    // 2. Lọc chính xác danh mục (Tab nào ra tab đó)
+    if (activeCategory !== "all") {
+      if (activeCategory === "dich-vu") {
+        if (p.itemType !== "dich-vu") return false;
+      } else if (activeCategory === "thu-cung") {
+        if (p.itemType !== "thu-cung") return false;
+      } else {
+        if (p.itemType !== "product") return false;
+        const catSlugDB = p.category?.slug || "";
+        const catNameDB = p.category?.name?.toLowerCase().trim() || "";
+        if (
+          catSlugDB !== activeCategory &&
+          !catNameDB.includes(activeCategoryName)
+        )
+          return false;
+      }
+    }
 
-  // --- LOGIC TÍNH TOÁN PHÂN TRANG ---
+    // 3. Lọc khoảng giá tiền tỷ
+    const itemPrice = p.price || p.basePrice || 0;
+    if (priceRange === "under500k" && itemPrice >= 500000) return false;
+    if (
+      priceRange === "500kTo2M" &&
+      (itemPrice < 500000 || itemPrice > 2000000)
+    )
+      return false;
+    if (
+      priceRange === "2MTo10M" &&
+      (itemPrice < 2000000 || itemPrice > 10000000)
+    )
+      return false;
+    if (priceRange === "over10M" && itemPrice <= 10000000) return false;
+
+    return true;
+  });
+
+  if (sortOrder === "priceAsc") {
+    filteredProducts.sort(
+      (a, b) => (a.price || a.basePrice || 0) - (b.price || b.basePrice || 0),
+    );
+  } else if (sortOrder === "priceDesc") {
+    filteredProducts.sort(
+      (a, b) => (b.price || b.basePrice || 0) - (a.price || a.basePrice || 0),
+    );
+  } else {
+    filteredProducts.sort(
+      (a, b) => new Date(b.createdAt) - new Date(a.createdAt),
+    );
+  }
+
   const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
-  const currentProducts = filteredProducts.slice(startIndex, startIndex + itemsPerPage);
+  const currentProducts = filteredProducts.slice(
+    startIndex,
+    startIndex + itemsPerPage,
+  );
 
   const formatPrice = (price) =>
-    new Intl.NumberFormat("vi-VN", { style: "currency", currency: "VND" }).format(price || 0);
+    new Intl.NumberFormat("vi-VN", {
+      style: "currency",
+      currency: "VND",
+    }).format(price || 0);
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
@@ -189,11 +250,20 @@ export default function Products() {
   return (
     <div className="bg-[#FFF9F5] min-h-screen py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        {/* TIÊU ĐỀ & BỘ LỌC */}
-        <div className="flex flex-col md:flex-row justify-between items-center mb-10 gap-4">
+        <div className="flex flex-col md:flex-row justify-between items-center mb-6 gap-4">
           <h1 className="text-3xl font-bold text-gray-900">
-            Tất cả <span className="text-pink-500">Sản phẩm</span>
+            {keyword ? (
+              <>
+                Tìm kiếm:{" "}
+                <span className="text-pink-500">
+                  "{searchParams.get("keyword")}"
+                </span>
+              </>
+            ) : (
+              <>
+                Tất cả <span className="text-pink-500">Sản phẩm</span>
+              </>
+            )}
           </h1>
 
           <div className="flex bg-white p-2 rounded-full shadow-sm border border-pink-100 overflow-x-auto w-full md:w-auto no-scrollbar">
@@ -215,11 +285,50 @@ export default function Products() {
           </div>
         </div>
 
-        {/* DANH SÁCH SẢN PHẨM */}
+        <div className="flex flex-wrap items-center justify-between bg-white p-4 rounded-2xl shadow-sm border border-gray-100 mb-8 gap-4">
+          <div className="flex items-center gap-3">
+            <span className="text-sm font-bold text-gray-600">Khoảng giá:</span>
+            <select
+              value={priceRange}
+              onChange={(e) => {
+                setPriceRange(e.target.value);
+                setCurrentPage(1);
+              }}
+              className="p-2 border border-gray-200 rounded-lg text-sm focus:ring-2 focus:ring-pink-200 outline-none cursor-pointer text-gray-700 font-medium"
+            >
+              <option value="all">Tất cả mức giá</option>
+              <option value="under500k">Dưới 500.000đ</option>
+              <option value="500kTo2M">500.000đ - 2 Triệu</option>
+              <option value="2MTo10M">2 Triệu - 10 Triệu</option>
+              <option value="over10M">Trên 10 Triệu</option>
+            </select>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <span className="text-sm font-bold text-gray-600">
+              Sắp xếp theo:
+            </span>
+            <select
+              value={sortOrder}
+              onChange={(e) => {
+                setSortOrder(e.target.value);
+                setCurrentPage(1);
+              }}
+              className="p-2 border border-gray-200 rounded-lg text-sm focus:ring-2 focus:ring-pink-200 outline-none cursor-pointer text-gray-700 font-medium"
+            >
+              <option value="newest">Hàng mới nhất</option>
+              <option value="priceAsc">Giá: Thấp đến Cao</option>
+              <option value="priceDesc">Giá: Cao đến Thấp</option>
+            </select>
+          </div>
+        </div>
+
         {loading ? (
           <div className="flex flex-col items-center justify-center py-20">
             <div className="w-12 h-12 border-4 border-pink-200 border-t-pink-500 rounded-full animate-spin mb-4"></div>
-            <div className="text-pink-500 font-bold">Đang tìm các món đồ xinh xắn...</div>
+            <div className="text-pink-500 font-bold">
+              Đang tìm các món đồ xinh xắn...
+            </div>
           </div>
         ) : filteredProducts.length > 0 ? (
           <>
@@ -243,18 +352,20 @@ export default function Products() {
                       alt={product.name}
                       className="max-h-full max-w-full object-contain p-2 group-hover:scale-105 transition-transform duration-300 mix-blend-multiply"
                     />
-                    
-                    {/* NÚT YÊU THÍCH */}
-                    <button 
+
+                    <button
                       onClick={(e) => handleToggleFavorite(e, product)}
                       className="absolute top-2 right-2 p-2 bg-white/90 hover:bg-white rounded-full shadow-sm transition-all z-10"
                     >
-                      <Heart 
-                        size={18} 
-                        className={favorites.some(f => f._id === product._id) ? "text-pink-500 fill-pink-500" : "text-gray-400"} 
+                      <Heart
+                        size={18}
+                        className={
+                          favorites.some((f) => f._id === product._id)
+                            ? "text-pink-500 fill-pink-500"
+                            : "text-gray-400"
+                        }
                       />
                     </button>
-
                     {product.discountPrice && (
                       <span className="absolute top-2 left-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-lg">
                         Giảm giá
@@ -263,15 +374,25 @@ export default function Products() {
                   </Link>
 
                   <div className="flex items-center mb-1">
-                    <Star size={14} className="text-yellow-400 mr-1" fill="currentColor" />
+                    <Star
+                      size={14}
+                      className="text-yellow-400 mr-1"
+                      fill="currentColor"
+                    />
                     <span className="text-xs text-gray-500 font-medium">
                       {product.ratingsAverage || 5.0}
                     </span>
                   </div>
 
-                  <Link to={`/product/${product._id}?type=${product.itemType || "product"}`} className="flex-grow">
+                  <Link
+                    to={`/product/${product._id}?type=${product.itemType || "product"}`}
+                    className="flex-grow"
+                  >
                     <p className="text-xs text-gray-400 mb-1 uppercase">
-                      {product.category?.name || (product.itemType === "dich-vu" ? "Dịch Vụ" : "Sản phẩm")}
+                      {product.category?.name ||
+                        (product.itemType === "dich-vu"
+                          ? "Dịch Vụ"
+                          : "Sản phẩm")}
                     </p>
                     <h3 className="font-semibold text-gray-900 mb-2 line-clamp-2 hover:text-pink-500 transition-colors">
                       {product.name}
@@ -281,7 +402,7 @@ export default function Products() {
                   <div className="mt-auto pt-4 flex justify-between items-center border-t border-gray-100 border-dashed">
                     <div>
                       <span className="text-lg font-bold text-pink-600 block">
-                        {formatPrice(product.price)}
+                        {formatPrice(product.price || product.basePrice)}
                       </span>
                       {product.discountPrice && (
                         <span className="text-xs text-gray-400 line-through">
@@ -289,8 +410,6 @@ export default function Products() {
                         </span>
                       )}
                     </div>
-                    
-                    {/* CHỈ HIỆN NÚT GIỎ HÀNG NẾU LÀ SẢN PHẨM HÀNG HÓA BÌNH THƯỜNG */}
                     {product.itemType === "product" && (
                       <button
                         onClick={(e) => handleAddToCart(e, product)}
@@ -304,7 +423,6 @@ export default function Products() {
                 </div>
               ))}
             </div>
-
             <Pagination
               currentPage={currentPage}
               totalPages={totalPages}
@@ -319,10 +437,10 @@ export default function Products() {
               className="w-24 h-24 opacity-50 mb-4"
             />
             <h3 className="text-lg font-bold text-gray-700 mb-2">
-              Chưa có sản phẩm
+              Không tìm thấy sản phẩm phù hợp
             </h3>
             <p className="text-gray-500">
-              Chúng tôi đang cập nhật thêm sản phẩm cho danh mục này.
+              Hãy thử tìm với một từ khóa khác hoặc bỏ các bộ lọc nhé.
             </p>
           </div>
         )}

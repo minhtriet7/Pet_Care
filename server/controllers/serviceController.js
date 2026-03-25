@@ -63,3 +63,25 @@ exports.getServiceById = async (req, res) => {
     res.status(500).json({ success: false, message: "Lỗi server", error: error.message });
   }
 };
+// Cập nhật dịch vụ
+exports.updateService = async (req, res) => {
+  try {
+    const service = await Service.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    if (!service) return res.status(404).json({ success: false, message: "Không tìm thấy" });
+    res.status(200).json({ success: true, message: "Cập nhật thành công", data: service });
+  } catch (error) {
+    res.status(500).json({ success: false, message: "Lỗi cập nhật", error: error.message });
+  }
+};
+
+// Xóa dịch vụ
+exports.deleteService = async (req, res) => {
+  try {
+    const service = await Service.findById(req.params.id);
+    if (!service) return res.status(404).json({ success: false, message: "Không tìm thấy" });
+    await service.deleteOne();
+    res.status(200).json({ success: true, message: "Xóa thành công" });
+  } catch (error) {
+    res.status(500).json({ success: false, message: "Lỗi xóa", error: error.message });
+  }
+};

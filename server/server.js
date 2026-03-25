@@ -17,6 +17,9 @@ const chatbotRoutes = require('./routes/chatbotRoutes');
 const uploadRoutes = require('./routes/uploadRoutes');
 // Thêm vào khu vực Import
 const reviewRoutes = require('./routes/reviewRoutes');
+const paymentRoutes = require('./routes/paymentRoutes');
+const blogRoutes = require('./routes/blogRoutes');
+
 const app = express();
 
 // Middleware chung
@@ -51,14 +54,9 @@ app.use('/api/chatbot', chatbotRoutes);
 app.use('/api/services', serviceRoutes);
 app.use('/api/reviews', reviewRoutes);
 app.use('/api/upload', uploadRoutes);
-// Route mặc định kiểm tra server
-app.get('/', (req, res) => {
-  res.send('Pet Care E-commerce API is running...');
-});
-app.get('/api/config/paypal', (req, res) => {
-  res.send(process.env.PAYPAL_CLIENT_ID);
-});
-// Middleware xử lý Route không tồn tại (404)
+app.use('/api/payment', paymentRoutes);
+app.use('/api/blogs', blogRoutes);
+
 app.use((req, res, next) => {
   res.status(404).json({ message: `Không tìm thấy API: ${req.originalUrl}` });
 });

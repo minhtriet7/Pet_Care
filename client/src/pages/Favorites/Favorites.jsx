@@ -44,7 +44,7 @@ export default function Favorites() {
         const res = await axiosClient.post("/cart", { productId: product._id, quantity: 1 });
         if (res.success || res.data?.success) alert(`Đã thêm ${product.name} vào giỏ hàng!`);
       } catch (error) {
-        alert("Lỗi khi thêm vào giỏ hàng");
+        alert("Lỗi khi thêm vào giỏ hàng", error);
       }
     }
     window.dispatchEvent(new Event("cartUpdated"));

@@ -5,10 +5,11 @@ const Pet = require("../models/Pet");
 // @access  Private
 exports.createPet = async (req, res) => {
   try {
-    const { name, species, breed, age, weight, gender, medicalHistory } = req.body;
+    const { name, species, breed, age, weight, gender, medicalHistory } =
+      req.body;
 
     const pet = new Pet({
-      owner: req.user._id,
+     owner: req.user._id,// LƯU Ý: Trường này tên là 'owner'
       name,
       species,
       breed,
@@ -38,14 +39,11 @@ exports.createPet = async (req, res) => {
 // @access  Private
 exports.getMyPets = async (req, res) => {
   try {
+    // Tìm đúng trường 'customer' trong Database
     const pets = await Pet.find({ owner: req.user._id });
-    res.status(200).json({
-      success: true,
-      message: "Lấy danh sách thú cưng thành công",
-      data: pets,
-    });
+    res.status(200).json(pets);
   } catch (error) {
-    res.status(500).json({ success: false, message: "Lỗi server", error: error.message });
+    res.status(500).json({ message: "Lỗi lấy thú cưng", error });
   }
 };
 
@@ -54,17 +52,16 @@ exports.getMyPets = async (req, res) => {
 // @access  Public
 exports.getPetsForSale = async (req, res) => {
   try {
-    // Chỉ lấy những con có gắn cờ forSale = true (nếu Schema của bạn thiết kế vậy)
-    // Nếu bạn muốn lấy hết thì sửa thành Pet.find({})
-    const pets = await Pet.find({ forSale: true }); 
-    
+    const pets = await Pet.find({ forSale: true });
     res.status(200).json({
       success: true,
       message: "Lấy danh sách thú cưng đang bán thành công",
       data: pets,
     });
   } catch (error) {
-    res.status(500).json({ success: false, message: "Lỗi server", error: error.message });
+    res
+      .status(500)
+      .json({ success: false, message: "Lỗi server", error: error.message });
   }
 };
 
@@ -73,12 +70,13 @@ exports.getPetsForSale = async (req, res) => {
 // @access  Public
 exports.getPetById = async (req, res) => {
   try {
-    const pet = await Pet.findById(req.params.id).populate("owner", "name email");
-    
+    // Đã fix lỗi: Tìm chính xác theo ID truyền trên URL
+    const pet = await Pet.findById(req.params.id);
+
     if (!pet) {
-      return res.status(404).json({ 
-        success: false, 
-        message: "Không tìm thấy thú cưng" 
+      return res.status(404).json({
+        success: false,
+        message: "Không tìm thấy thú cưng",
       });
     }
 
@@ -88,10 +86,10 @@ exports.getPetById = async (req, res) => {
       data: pet,
     });
   } catch (error) {
-    res.status(500).json({ 
-      success: false, 
-      message: "Lỗi server", 
-      error: error.message 
+    res.status(500).json({
+      success: false,
+      message: "Lỗi server",
+      error: error.message,
     });
   }
 };
@@ -103,19 +101,25 @@ exports.deletePet = async (req, res) => {
   try {
     const pet = await Pet.findById(req.params.id);
     if (!pet)
-      return res.status(404).json({ success: false, message: "Không tìm thấy thú cưng" });
+      return res
+        .status(404)
+        .json({ success: false, message: "Không tìm thấy thú cưng" });
 
     // Kiểm tra quyền: Chỉ chủ sở hữu mới được xóa thú cưng của mình
     if (pet.owner.toString() !== req.user._id.toString()) {
       return res.status(403).json({
-          success: false,
-          message: "Bạn không có quyền xóa thú cưng này",
-        });
+        success: false,
+        message: "Bạn không có quyền xóa thú cưng này",
+      });
     }
 
     await pet.deleteOne();
-    res.status(200).json({ success: true, message: "Đã xóa thú cưng thành công" });
+    res
+      .status(200)
+      .json({ success: true, message: "Đã xóa thú cưng thành công" });
   } catch (error) {
-    res.status(500).json({ success: false, message: "Lỗi server", error: error.message });
+    res
+      .status(500)
+      .json({ success: false, message: "Lỗi server", error: error.message });
   }
 };
