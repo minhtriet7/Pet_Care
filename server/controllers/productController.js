@@ -10,21 +10,17 @@ const getProducts = async (req, res) => {
       "name",
     );
 
-    res
-      .status(200)
-      .json({
-        success: true,
-        message: "Lấy danh sách sản phẩm thành công",
-        data: products,
-      });
+    res.status(200).json({
+      success: true,
+      message: "Lấy danh sách sản phẩm thành công",
+      data: products,
+    });
   } catch (error) {
-    res
-      .status(500)
-      .json({
-        success: false,
-        message: "Lỗi server khi lấy sản phẩm",
-        error: error.message,
-      });
+    res.status(500).json({
+      success: false,
+      message: "Lỗi server khi lấy sản phẩm",
+      error: error.message,
+    });
   }
 };
 
@@ -32,46 +28,49 @@ const createProduct = async (req, res) => {
   try {
     const newProduct = new Product(req.body);
     const savedProduct = await newProduct.save();
-    res
-      .status(201)
-      .json({
-        success: true,
-        message: "Tạo sản phẩm thành công",
-        data: savedProduct,
-      });
+    res.status(201).json({
+      success: true,
+      message: "Tạo sản phẩm thành công",
+      data: savedProduct,
+    });
   } catch (error) {
-    res
-      .status(400)
-      .json({
-        success: false,
-        message: "Dữ liệu không hợp lệ",
-        error: error.message,
-      });
+    res.status(400).json({
+      success: false,
+      message: "Dữ liệu không hợp lệ",
+      error: error.message,
+    });
   }
 };
 
+// ĐÃ SỬA LỖI TẠI HÀM NÀY
 const getProductById = async (req, res) => {
   try {
-    const products = await Product.find({}).populate('category')(
-      "category",
-      "name",
-    );
-    if (!product)
-      return res
-        .status(404)
-        .json({ success: false, message: "Không tìm thấy sản phẩm" });
+    // 1. Lấy id từ params (đường link)
+    const { id } = req.params;
 
-    res
-      .status(200)
-      .json({
-        success: true,
-        message: "Lấy chi tiết sản phẩm thành công",
-        data: product,
+    // 2. Dùng findById thay vì find, và populate đúng cú pháp
+    const product = await Product.findById(id).populate("category", "name");
+
+    // 3. Kiểm tra nếu không có sản phẩm
+    if (!product) {
+      return res.status(404).json({
+        success: false,
+        message: "Không tìm thấy sản phẩm",
       });
+    }
+
+    // 4. Trả về data thành công
+    res.status(200).json({
+      success: true,
+      message: "Lấy chi tiết sản phẩm thành công",
+      data: product,
+    });
   } catch (error) {
-    res
-      .status(500)
-      .json({ success: false, message: "Lỗi server", error: error.message });
+    res.status(500).json({
+      success: false,
+      message: "Lỗi server",
+      error: error.message,
+    });
   }
 };
 
@@ -110,21 +109,17 @@ const updateProduct = async (req, res) => {
     }
 
     const updatedProduct = await product.save();
-    res
-      .status(200)
-      .json({
-        success: true,
-        message: "Cập nhật sản phẩm thành công",
-        data: updatedProduct,
-      });
+    res.status(200).json({
+      success: true,
+      message: "Cập nhật sản phẩm thành công",
+      data: updatedProduct,
+    });
   } catch (error) {
-    res
-      .status(500)
-      .json({
-        success: false,
-        message: "Lỗi khi cập nhật sản phẩm",
-        error: error.message,
-      });
+    res.status(500).json({
+      success: false,
+      message: "Lỗi khi cập nhật sản phẩm",
+      error: error.message,
+    });
   }
 };
 
@@ -137,17 +132,16 @@ const deleteProduct = async (req, res) => {
         .json({ success: false, message: "Không tìm thấy sản phẩm" });
 
     await product.deleteOne();
-    res
-      .status(200)
-      .json({ success: true, message: "Đã xóa sản phẩm thành công" });
+    res.status(200).json({
+      success: true,
+      message: "Đã xóa sản phẩm thành công",
+    });
   } catch (error) {
-    res
-      .status(500)
-      .json({
-        success: false,
-        message: "Lỗi khi xóa sản phẩm",
-        error: error.message,
-      });
+    res.status(500).json({
+      success: false,
+      message: "Lỗi khi xóa sản phẩm",
+      error: error.message,
+    });
   }
 };
 
